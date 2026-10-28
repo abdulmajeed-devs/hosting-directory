@@ -1,0 +1,90 @@
+{
+  "company_name": "TMDHosting",
+  "slug": "tmdhosting",
+  "profile": {
+    "overall_rating": "4.6",
+    "review_count": "1,320 reviews",
+    "starting_price": "$ 2.95 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 0,
+    "ties": 1,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "TMDHosting vs BlueHost – Discover the Best Choice",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Tie / Inconclusive",
+      "declared_winner": "Inconclusive / Neutral",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-tmdhosting/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 2.95 / month"
+  },
+  "faqs": [
+    {
+      "question": "1. Is TMDHosting Secure?",
+      "answer": "Yes. TMDHosting is one of the most secure hosting providers in the market. They provide free SSL certificates, backups, and DDoS protection in all hosting plans. Yes. TMDHosting is one of the most secure hosting providers in the market. They provide free SSL certificates, backups, and DDoS protection in all hosting plans.",
+      "source_comparison": "TMDHosting vs BlueHost – Discover the Best Choice"
+    },
+    {
+      "question": "2. Is BlueHost better than TMDHosting?",
+      "answer": "While BlueHost is more popular than TMDHosting, it’s not necessarily a better option. TMDHosting provides more features in its hosting plans than BlueHost. While BlueHost is more popular than TMDHosting, it’s not necessarily a better option. TMDHosting provides more features in its hosting plans than BlueHost.",
+      "source_comparison": "TMDHosting vs BlueHost – Discover the Best Choice"
+    },
+    {
+      "question": "3. What are some good TMDHosting and BlueHost alternatives?",
+      "answer": "Some great TMDHosting alternatives and BlueHost alternatives are Hostinger, SiteGround, Dreamhost, and HostGator. Some great TMDHosting alternatives and BlueHost alternatives are Hostinger, SiteGround, Dreamhost, and HostGator.",
+      "source_comparison": "TMDHosting vs BlueHost – Discover the Best Choice"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "TMDHosting Starter Tier",
+    "Promotional Price": "$ 2.95 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.6 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

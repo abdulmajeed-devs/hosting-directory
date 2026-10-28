@@ -1,0 +1,72 @@
+{
+  "company_name": "GreenGeeks",
+  "slug": "greengeeks",
+  "profile": {
+    "overall_rating": "4.5",
+    "review_count": "1,670 reviews",
+    "starting_price": "$ 2.95 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 54,
+    "wins": 27,
+    "losses": 27,
+    "ties": 0,
+    "win_rate_percentage": 50.0
+  },
+  "head_to_head": [],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 2.95 / month"
+  },
+  "faqs": [
+    {
+      "question": "Is GreenGeeks good for beginners?",
+      "answer": "Yes, GreenGeeks provides an intuitive dashboard, 1-click WordPress installation, and 24/7 customer support."
+    },
+    {
+      "question": "What is the starting price for GreenGeeks?",
+      "answer": "GreenGeeks introductory plans start at approximately $ 2.95 / month."
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "GreenGeeks Starter Tier",
+    "Promotional Price": "$ 2.95 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.5 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

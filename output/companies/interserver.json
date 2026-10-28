@@ -1,0 +1,135 @@
+{
+  "company_name": "InterServer",
+  "slug": "interserver",
+  "profile": {
+    "overall_rating": "4.4",
+    "review_count": "1,870 reviews",
+    "starting_price": "$ 2.50 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 3,
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "win_rate_percentage": 33.3
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Bluehost vs Digital Ocean vs InterServer",
+      "opponents": [
+        "Bluehost",
+        "DigitalOcean"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-digital-ocean-vs-interserver/",
+      "template_type": "spec_grid"
+    },
+    {
+      "comparison_title": "InterServer vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Win",
+      "declared_winner": "InterServer",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-interserver/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "GoDaddy vs InterServer",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Loss",
+      "declared_winner": "GoDaddy",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-interserver/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "No",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 2.50 / month",
+    "Coupons": "Coupons12",
+    "User Friendly": "4.4",
+    "Support": "4.4",
+    "Features": "4.4",
+    "Reliability": "4.4",
+    "Pricing": "4.5",
+    "Latest positive review": "Steve Lisk 30 Aug, 2026 | 12:08 4.8 Appreciate the Support Team The support team have been very good and prompt when assisting me anytime I am having a problem with hosting",
+    "Latest negative review": "Connor Glass 03 Oct, 2026 | 07:10 2.0 Paid for two servers, still waiting on one and clear answers We paid InterServer $709 for two dedicated servers on September 24, 2026. One was delivered on October 2. As of October 2, the other still shows \"Setu...p In-progress,\" with no firm delivery date. We followed up repeatedly and requested a supervisor, a firm handoff date, and a billing credit on September 29. That escalation on the remaining server's ticket is still unanswered. Support had answered a configuration question earlier, but did not explain the delay or provide an ETA. We specifically passed on overseas hardware options because we wanted to work with an American tech company and expected U.S.-based technical support. When we called for service, we reached a call center in India. That was disappointing, especially while we were already struggling to get answers about our order. This has disrupted our migration planning and made it difficult to trust the onboarding process. Delays can happen, but getting a clear answer should not require repeated chasing. We want a confirmed delivery date and a response to our billing-credit request. Show MoreShow less",
+    "Starting Price": "$2.50/mo (web hosting)",
+    "Money-Back Guarantee": "30 days (web hosting only)",
+    "Free Site Migration": "Yes",
+    "Storage": "Unlimited (shared hosting)",
+    "Automated Backups": "Weekly included",
+    "Bandwidth": "Unlimited",
+    "Free Domain": "Yes (with web hosting)",
+    "Free SSL": "Yes (Let’s Encrypt)",
+    "Page Load Speed": "2.2s fully loaded, 2.1s LCP",
+    "24/7 Customer Support": "Yes (chat, phone, email, tickets)",
+    "Server Locations": "2 (Secaucus NJ, Los Angeles CA)"
+  },
+  "faqs": [
+    {
+      "question": "Is InterServer's $2.50/month price permanent or does it increase at renewal?",
+      "answer": "InterServer’s price-lock guarantee means you pay the same rate at renewal that you paid when you signed up. There is no promotional period that expires. InterServer’s price-lock guarantee means you pay the same rate at renewal that you paid when you signed up. There is no promotional period that expires.",
+      "source_comparison": "InterServer vs Bluehost"
+    },
+    {
+      "question": "Does either provider include daily automated backups at no extra cost?",
+      "answer": "Neither provider includes daily automated backups on entry shared plans at no charge. InterServer includes weekly backups by default. Bluehost includes weekly backups on standard plans and daily backups on eCommerce plans. Bluehost’s CodeGuard advanced backup add-on costs $2.99/month for more granular control. If daily backups matter to your workflow, factor that cost into whichever plan you choose. Neither provider includes daily automated backups on entry shared plans at no charge. InterServer includes weekly backups by default. Bluehost includes weekly backups on standard plans and daily backups on eCommerce plans. Bluehost’s CodeGuard advanced backup add-on costs $2.99/month for more granular control. If daily backups matter to your workflow, factor that cost into whichever plan you choose.",
+      "source_comparison": "InterServer vs Bluehost"
+    },
+    {
+      "question": "Can I migrate my site to either provider without downtime?",
+      "answer": "Both providers offer free site migration. InterServer handles the migration for you through their team. Bluehost offers a free DIY migration tool that moved a test WordPress site in under 5 minutes during testing, plus a paid Professional Migration service at $149.99 per site if you prefer a hands-off approach. Both providers offer free site migration. InterServer handles the migration for you through their team. Bluehost offers a free DIY migration tool that moved a test WordPress site in under 5 minutes during testing, plus a paid Professional Migration service at $149.99 per site if you prefer a hands-off approach.",
+      "source_comparison": "InterServer vs Bluehost"
+    },
+    {
+      "question": "Which host is better for running multiple client websites?",
+      "answer": "InterServer’s unlimited shared hosting plan lets you run unlimited websites under a single flat rate, making it cost-effective for agencies or freelancers managing multiple client sites. InterServer’s unlimited shared hosting plan lets you run unlimited websites under a single flat rate, making it cost-effective for agencies or freelancers managing multiple client sites.",
+      "source_comparison": "InterServer vs Bluehost"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "InterServer Starter Tier",
+    "Promotional Price": "$ 2.50 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.4 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

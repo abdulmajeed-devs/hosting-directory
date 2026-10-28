@@ -1,0 +1,72 @@
+{
+  "company_name": "DreamHost",
+  "slug": "dreamhost",
+  "profile": {
+    "overall_rating": "4.4",
+    "review_count": "2,310 reviews",
+    "starting_price": "$ 2.59 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 54,
+    "wins": 27,
+    "losses": 27,
+    "ties": 0,
+    "win_rate_percentage": 50.0
+  },
+  "head_to_head": [],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 2.59 / month"
+  },
+  "faqs": [
+    {
+      "question": "Is DreamHost good for beginners?",
+      "answer": "Yes, DreamHost provides an intuitive dashboard, 1-click WordPress installation, and 24/7 customer support."
+    },
+    {
+      "question": "What is the starting price for DreamHost?",
+      "answer": "DreamHost introductory plans start at approximately $ 2.59 / month."
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Shared Starter",
+    "Promotional Price": "$2.59 / month",
+    "Standard Renewal Price": "$5.99 / month",
+    "Websites Allowed": "1 Website",
+    "Storage Space": "50 GB Fast SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Traffic",
+    "Free Domain": "Yes (Free Domain for 1st Year)",
+    "Free SSL Certificate": "Free Let's Encrypt SSL Certificate",
+    "Money-Back Guarantee": "Industry-Leading 97-Day Money-Back Guarantee!",
+    "Email Accounts": "Paid Add-on ($1.67/mo per inbox)"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "100% Uptime Guarantee (Compensation for any downtime)",
+    "Web Server Software": "Apache & Nginx Optimized Stack",
+    "Caching Technology": "Server-Side Caching + OPcache",
+    "Global Server Locations": "USA (Virginia & Oregon)",
+    "CDN Integration": "Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Drives (Fast SSDs)",
+    "Automated Backups": "Free Automated Daily Backups",
+    "PHP & Protocol": "PHP 8.1 - 8.3 with FastCGI"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7 Live Chat Support",
+    "Phone Support": "Callback Phone Support (Paid add-on)",
+    "Ticket / Email Support": "24/7/365 Email Ticket System",
+    "Free Website Migration": "Free Automated WordPress Migration Plugin",
+    "Knowledge Base": "DreamHost Knowledge Base & Active Community Forum",
+    "HostAdvice Support Rating": "4.5 / 5.0",
+    "Ease of Use Score": "4.7 / 5.0 (Custom DreamHost Control Panel)"
+  }
+}

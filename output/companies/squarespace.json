@@ -1,0 +1,147 @@
+{
+  "company_name": "Squarespace",
+  "slug": "squarespace",
+  "profile": {
+    "overall_rating": "4.2",
+    "review_count": "1,180 reviews",
+    "starting_price": "$ 16.00 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 2,
+    "wins": 1,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 50.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Squarespace vs GoDaddy",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Win",
+      "declared_winner": "Squarespace",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-squarespace/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Bluehost vs Squarespace",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-squarespace/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.90%",
+    "Starting price": "$ 16.00 / month",
+    "Ease of use": "Beginner-friendly and intuitive website builder.",
+    "Design and Templates": "Provides sleek templates that work well on all devices.",
+    "Features and Tools": "Offers SEO, blogging, and marketing tools.",
+    "Performance": "0.8s",
+    "SEO and Marketing": "Customizable page titles and meta descriptions, clean URLs, automatic sitemap generation, email campaigns, and social media integration",
+    "eCommerce": "Easy-to-use product management system, various payment methods,shipping options and tax calculations, promotional tools and coupons.",
+    "Customer support": "Live chat on weekdays (4 am-8 pm EST), 24/7 support on Twitter and email. Help center, blog, guides, and tutorials.",
+    "Starting Price": "From $16/mo (website builder plans)",
+    "Money-Back Guarantee": "Yes (14 days)",
+    "Free Site Migration": "No",
+    "Storage": "Unlimited (cloud-based, less customisable)",
+    "Automated Backups": "Automatic platform-managed backups",
+    "Bandwidth": "Unlimited",
+    "Free Domain Name": "Yes (1 year)",
+    "Page Load Speed (GTmetrix Test)": "5.8s fully loaded",
+    "24/7 Customer Support": "Email (24/7) + live chat (limited hours)",
+    "Server Location": "U.S. data centres only + global CDN for static assets"
+  },
+  "faqs": [
+    {
+      "question": "Which is better, GoDaddy or Squarespace?",
+      "answer": "Your choice will depend partly on your needs. However, GoDaddy is cheaper than Squarespace and is preferred by people working on a budget. Although Squarespace is costly, it offers many design possibilities and amazing templates. Your choice will depend partly on your needs. However, GoDaddy is cheaper than Squarespace and is preferred by people working on a budget. Although Squarespace is costly, it offers many design possibilities and amazing templates.",
+      "source_comparison": "Squarespace vs GoDaddy"
+    },
+    {
+      "question": "Can I use Squarespace with GoDaddy?",
+      "answer": "Yes! You can purchase your domain name with GoDaddy and direct it to a Squarespace site. Look at this Squarespace tutorial to know how to pull this off. Yes! You can purchase your domain name with GoDaddy and direct it to a Squarespace site. Look at this Squarespace tutorial to know how to pull this off.",
+      "source_comparison": "Squarespace vs GoDaddy"
+    },
+    {
+      "question": "Do I own my Squarespace domain?",
+      "answer": "Yes, you own your Squarespace domain, even though Squarespace helps users register their domain names. Yes, you own your Squarespace domain, even though Squarespace helps users register their domain names.",
+      "source_comparison": "Squarespace vs GoDaddy"
+    },
+    {
+      "question": "Who are GoDaddy and Squarespace’s main competitors?",
+      "answer": "GoDaddy and Squarespace have several other competitors in the website building space. Platforms like Weebly and Wix are good alternatives. GoDaddy and Squarespace have several other competitors in the website building space. Platforms like Weebly and Wix are good alternatives.",
+      "source_comparison": "Squarespace vs GoDaddy"
+    },
+    {
+      "question": "Which is better, Squarespace or Bluehost?",
+      "answer": "From my tests, Bluehost is the better choice overall. It’s faster, more affordable, and gives me more flexibility with hosting features and server control. Squarespace is easier for beginners thanks to its drag-and-drop builder, but if performance and long-term growth matter, Bluehost wins. From my tests, Bluehost is the better choice overall. It’s faster, more affordable, and gives me more flexibility with hosting features and server control. Squarespace is easier for beginners thanks to its drag-and-drop builder, but if performance and long-term growth matter, Bluehost wins.",
+      "source_comparison": "Bluehost vs Squarespace"
+    },
+    {
+      "question": "Do I need Bluehost if I have Squarespace?",
+      "answer": "No. Squarespace is an all-in-one website builder that includes hosting, so you don’t need Bluehost on top of it. But, if you want more control, server flexibility, and the ability to use WordPress with plugins, then Bluehost is the better option. No. Squarespace is an all-in-one website builder that includes hosting, so you don’t need Bluehost on top of it. But, if you want more control, server flexibility, and the ability to use WordPress with plugins, then Bluehost is the better option.",
+      "source_comparison": "Bluehost vs Squarespace"
+    },
+    {
+      "question": "What are the downsides of using Squarespace?",
+      "answer": "The main downsides I noticed are the higher price, slower site speed, and lack of control. You can’t pick your server location or use advanced hosting features, and you’re locked into their platform. It’s great for simplicity, but restrictive for advanced users. The main downsides I noticed are the higher price, slower site speed, and lack of control. You can’t pick your server location or use advanced hosting features, and you’re locked into their platform. It’s great for simplicity, but restrictive for advanced users.",
+      "source_comparison": "Bluehost vs Squarespace"
+    },
+    {
+      "question": "Is there a better website builder than Squarespace?",
+      "answer": "Yes, depending on your needs. Wix and WordPress.com are two popular alternatives. From my experience, Wix offers more creative freedom with templates, while WordPress.com gives you flexibility with plugins. Squarespace still stands out for design polish, but it isn’t the fastest or the cheapest option. Yes, depending on your needs. Wix and WordPress.com are two popular alternatives. From my experience, Wix offers more creative freedom with templates, while WordPress.com gives you flexibility with plugins. Squarespace still stands out for design polish, but it isn’t the fastest or the cheapest option.",
+      "source_comparison": "Bluehost vs Squarespace"
+    },
+    {
+      "question": "Is Squarespace still the best?",
+      "answer": "Squarespace is still one of the best website builders for beginners, especially if you want a quick, stylish site with minimal effort. But from my testing, it’s not the best overall. Bluehost takes that title for its speed, affordability, and scalability. Squarespace is still one of the best website builders for beginners, especially if you want a quick, stylish site with minimal effort. But from my testing, it’s not the best overall. Bluehost takes that title for its speed, affordability, and scalability.",
+      "source_comparison": "Bluehost vs Squarespace"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Squarespace Starter Tier",
+    "Promotional Price": "$ 16.00 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.2 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "company_name": "Wix",
+  "slug": "wix",
+  "profile": {
+    "overall_rating": "4.2",
+    "review_count": "2,450 reviews",
+    "starting_price": "$ 17.00 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 3,
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "win_rate_percentage": 33.3
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Wix vs GoDaddy",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Win",
+      "declared_winner": "Wix",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-wix-com/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hostinger vs. Wix",
+      "opponents": [
+        "Hostinger"
+      ],
+      "result": "Loss",
+      "declared_winner": "Hostinger",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/hostinger-vs-wix-com/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "IONOS vs Wix",
+      "opponents": [
+        "IONOS"
+      ],
+      "result": "Loss",
+      "declared_winner": "IONOS",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/ionos-vs-wix-com/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "Multiple support options, including phone callbacks, but slower response times",
+    "Uptime Guarantee": "99.9%",
+    "Starting price (annual)": "$17/mo (Light)",
+    "Free plan": "Yes, Wix subdomain, no eCommerce",
+    "Editor type": "Open canvas drag-and-drop",
+    "Templates": "900+",
+    "eCommerce 0% fees from": "Core: $29/mo",
+    "AI site builder": "Full chatbot builder",
+    "Support channels": "Chat + callback (paid); phone (Enterprise)",
+    "Template switching": "No, locked after launch",
+    "Starting Price": "$17/month",
+    "Ease of Use": "Fully flexible drag-and-drop editor but has a steeper learning curve",
+    "Design and Templates": "800+ professionally designed templates, full design control",
+    "Tools and Integrations": "Extensive: 800+ apps in the Wix App Market",
+    "Performance": "Page load time: 4.8s",
+    "SEO and Marketing": "Advanced SEO: structured data, custom URLs, AI-driven insights",
+    "eCommerce Support": "Advanced: abandoned cart recovery, POS support, multiple payment gateways",
+    "Entry Price (intro)": "$17/mo (Light)",
+    "Best-Value Plan (intro)": "$29/mo (Core)",
+    "Renewal Price": "$17–$29/mo (Light–Core)",
+    "Free Domain": "Yes, 1 year (paid plans)",
+    "Business Email Inbox": "No, requires Google Workspace add-on",
+    "Free Plan": "Yes, permanently free with Wix branding",
+    "Money-Back Guarantee": "14 days",
+    "AI Website Builder": "Yes (Aria conversational AI)",
+    "AI Text and Image Tools": "Yes, in-editor",
+    "eCommerce": "Yes, up to 50,000 products",
+    "Online Booking": "Yes (Wix Bookings, all paid plans)",
+    "Vertical Tools (restaurant, hotel)": "Yes (Wix Restaurants, Wix Hotels)",
+    "Core Web Vitals Pass Rate": "74.86% of origins",
+    "Lighthouse SEO Score (median)": "100 (desktop and mobile)",
+    "Phone Support": "No (callback form on paid plans)",
+    "Personal Consultant": "No",
+    "AI Receptionist (Momentum)": "No",
+    "Template Switching After Launch": "No",
+    "Mobile Editor": "Fixed adaptive layout",
+    "App Market": "Large (hundreds of apps)",
+    "Starting price": "$ 17.00 / month"
+  },
+  "faqs": [
+    {
+      "question": "Is Wix or GoDaddy easier for beginners?",
+      "answer": "GoDaddy is easier for beginners who want to launch quickly. Its structured editor and Airo AI setup flow require fewer decisions than Wix’s open canvas, and 24/7 phone support on all plans means help is always a call away. Wix has a steeper learning curve but rewards the investment with more control over design and SEO. GoDaddy is easier for beginners who want to launch quickly. Its structured editor and Airo AI setup flow require fewer decisions than Wix’s open canvas, and 24/7 phone support on all plans means help is always a call away. Wix has a steeper learning curve but rewards the investment with more control over design and SEO.",
+      "source_comparison": "Wix vs GoDaddy"
+    },
+    {
+      "question": "Is Wix or GoDaddy better for online stores?",
+      "answer": "Wix is better for most online stores. It supports subscriptions and recurring payments from $29 per month, includes multi-currency checkout from $39 per month, and offers deeper eCommerce tools overall. GoDaddy’s Commerce plan covers the basics well and costs less at entry, but it does not support subscription products on the Website Builder at any price, and GoDaddy Payments is US-only. Wix is better for most online stores. It supports subscriptions and recurring payments from $29 per month, includes multi-currency checkout from $39 per month, and offers deeper eCommerce tools overall. GoDaddy’s Commerce plan covers the basics well and costs less at entry, but it does not support subscription products on the Website Builder at any price, and GoDaddy Payments is US-only.",
+      "source_comparison": "Wix vs GoDaddy"
+    },
+    {
+      "question": "Can I switch from Wix to GoDaddy?",
+      "answer": "You can rebuild your site on GoDaddy, but there is no automated migration tool. You will need to recreate pages, content, and products manually. Your domain can be transferred separately through your domain registrar. You can rebuild your site on GoDaddy, but there is no automated migration tool. You will need to recreate pages, content, and products manually. Your domain can be transferred separately through your domain registrar.",
+      "source_comparison": "Wix vs GoDaddy"
+    },
+    {
+      "question": "Is Wix or GoDaddy better for SEO?",
+      "answer": "Wix is significantly better for SEO. It includes a robots.txt editor, full 301 redirect management (up to 5,000 redirects), custom URL slugs on all plans, and direct Google Search Console integration from the dashboard. GoDaddy Website Builder lacks all four of those features, which creates real limitations for any site that grows or restructures over time. Wix is significantly better for SEO. It includes a robots.txt editor, full 301 redirect management (up to 5,000 redirects), custom URL slugs on all plans, and direct Google Search Console integration from the dashboard. GoDaddy Website Builder lacks all four of those features, which creates real limitations for any site that grows or restructures over time.",
+      "source_comparison": "Wix vs GoDaddy"
+    },
+    {
+      "question": "What happens to my site if I cancel Wix or GoDaddy?",
+      "answer": "If you cancel Wix’s paid plan, your site reverts to the free plan: Wix branding returns and your custom domain disconnects, but the site remains accessible. If you cancel GoDaddy, your site and content are no longer published. In both cases, your domain remains yours if registered separately, and you should confirm domain ownership before cancelling any associated builder or hosting plan. If you cancel Wix’s paid plan, your site reverts to the free plan: Wix branding returns and your custom domain disconnects, but the site remains accessible. If you cancel GoDaddy, your site and content are no longer published. In both cases, your domain remains yours if registered separately, and you should confirm domain ownership before cancelling any associated builder or hosting plan.",
+      "source_comparison": "Wix vs GoDaddy"
+    },
+    {
+      "question": "Can I migrate my Wix website to Hostinger Website Builder?",
+      "answer": "No, Wix does not offer direct migration tools, and Hostinger does not have an automatic import feature. However, Hostinger offers options for importing websites and managing files, including the “Import Website” feature in hPanel and the Hostinger Website Builder. No, Wix does not offer direct migration tools, and Hostinger does not have an automatic import feature. However, Hostinger offers options for importing websites and managing files, including the “Import Website” feature in hPanel and the Hostinger Website Builder.",
+      "source_comparison": "Hostinger vs. Wix"
+    },
+    {
+      "question": "Which website builder is better for blogging: Hostinger or Wix?",
+      "answer": "Wix offers more advanced blogging features, including post scheduling, categories, and built-in SEO tools. Hostinger provides a simple blog setup with essential features, making it better suited for beginners or small blogs. Wix offers more advanced blogging features, including post scheduling, categories, and built-in SEO tools. Hostinger provides a simple blog setup with essential features, making it better suited for beginners or small blogs.",
+      "source_comparison": "Hostinger vs. Wix"
+    },
+    {
+      "question": "Which platform is more cost-effective in the long term?",
+      "answer": "Hostinger is significantly cheaper, with plans starting at $2.49 per month, while Wix’s pricing begins at $17 per month. However, Wix provides more features, making it a better value for users needing advanced tools. Hostinger is significantly cheaper, with plans starting at $2.49 per month, while Wix’s pricing begins at $17 per month. However, Wix provides more features, making it a better value for users needing advanced tools.",
+      "source_comparison": "Hostinger vs. Wix"
+    },
+    {
+      "question": "Which builder is better for SEO: Hostinger or Wix?",
+      "answer": "Wix has better SEO tools, including structured data, custom URL settings, and an SEO wizard. Hostinger offers basic SEO options, such as meta tags and an AI-powered SEO assistant, but lacks advanced optimization features. Wix has better SEO tools, including structured data, custom URL settings, and an SEO wizard. Hostinger offers basic SEO options, such as meta tags and an AI-powered SEO assistant, but lacks advanced optimization features.",
+      "source_comparison": "Hostinger vs. Wix"
+    },
+    {
+      "question": "If I cancel my plan, will my website be deleted on Hostinger or Wix?",
+      "answer": "Hostinger: If you cancel your plan, your website will no longer be accessible, but your data may be stored for a short period before deletion.Wix: If you downgrade, your site will revert to the free Wix plan, displaying Wix ads but keeping all content intact.",
+      "source_comparison": "Hostinger vs. Wix"
+    },
+    {
+      "question": "Is IONOS or Wix better for a first-time website builder?",
+      "answer": "IONOS is the more forgiving starting point. The section-based editor prevents the layout errors that an open canvas allows, the AI confirms its category interpretation before generating a design, and a named personal consultant is available from day one. Wix’s Aria AI produces richer initial content and the interface is polished, but the open canvas takes more time to master and the template you choose at launch cannot be switched. IONOS is the more forgiving starting point. The section-based editor prevents the layout errors that an open canvas allows, the AI confirms its category interpretation before generating a design, and a named personal consultant is available from day one. Wix’s Aria AI produces richer initial content and the interface is polished, but the open canvas takes more time to master and the template you choose at launch cannot be switched.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Can IONOS handle an online store?",
+      "answer": "Yes, up to 10,000 products, with CSV import, variant management on the Pro plan, social selling on Facebook and Instagram, and multichannel listing on Amazon and eBay through eCommerce plans. For stores that need abandoned cart recovery, a built-in loyalty program, or dropshipping, Wix’s eCommerce feature set is deeper. Yes, up to 10,000 products, with CSV import, variant management on the Pro plan, social selling on Facebook and Instagram, and multichannel listing on Amazon and eBay through eCommerce plans. For stores that need abandoned cart recovery, a built-in loyalty program, or dropshipping, Wix’s eCommerce feature set is deeper.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Why does IONOS cost so much less than Wix?",
+      "answer": "IONOS’s lower pricing reflects a narrower template library and less design flexibility rather than inferior infrastructure. The Plus plan bundles email hosting, a domain, and SSL into a $20/month renewal rate after the first year. Wix’s equivalent (Core at $29/month) does not include email, and adding Google Workspace typically adds $6 to $12 per month. The real all-in cost gap is closer than the headline prices suggest. IONOS’s lower pricing reflects a narrower template library and less design flexibility rather than inferior infrastructure. The Plus plan bundles email hosting, a domain, and SSL into a $20/month renewal rate after the first year. Wix’s equivalent (Core at $29/month) does not include email, and adding Google Workspace typically adds $6 to $12 per month. The real all-in cost gap is closer than the headline prices suggest.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "What is IONOS Momentum and does it replace Wix's features?",
+      "answer": "IONOS Momentum is a separate AI platform for small business operations, not a website builder feature. Its current flagship is the AI Receptionist, which answers incoming calls, schedules appointments via Google or Microsoft calendar integration, and sends call summaries to your inbox, all for under $50 per month. It fills a gap Wix does not address: automating phone-based customer contact. The two products do not overlap in any meaningful way. IONOS Momentum is a separate AI platform for small business operations, not a website builder feature. Its current flagship is the AI Receptionist, which answers incoming calls, schedules appointments via Google or Microsoft calendar integration, and sends call summaries to your inbox, all for under $50 per month. It fills a gap Wix does not address: automating phone-based customer contact. The two products do not overlap in any meaningful way.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Does Wix have phone support like IONOS?",
+      "answer": "No. Wix offers live chat on all paid plans and a call-back request form, but does not operate a direct phone line. In testing, reaching a live agent also required navigating the Helpmate chatbot, which pushed back before offering a handoff. IONOS’s 24/7 phone support connects directly to a live agent with no hold time on all paid plans. No. Wix offers live chat on all paid plans and a call-back request form, but does not operate a direct phone line. In testing, reaching a live agent also required navigating the Helpmate chatbot, which pushed back before offering a handoff. IONOS’s 24/7 phone support connects directly to a live agent with no hold time on all paid plans.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Can I switch templates after launching my site?",
+      "answer": "On IONOS, yes, template switching is available after launch, and your content migrates to the new design. On Wix, no. The template you publish with is the structural foundation you are committed to, and a full redesign requires rebuilding the site from scratch. This is one of the most significant operational differences between the two platforms and worth factoring into the decision before you invest time building. On IONOS, yes, template switching is available after launch, and your content migrates to the new design. On Wix, no. The template you publish with is the structural foundation you are committed to, and a full redesign requires rebuilding the site from scratch. This is one of the most significant operational differences between the two platforms and worth factoring into the decision before you invest time building.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Which platform is better for SEO?",
+      "answer": "Both are capable for most small businesses. Wix’s 74.86% Core Web Vitals pass rate and perfect median Lighthouse SEO score of 100 are strong platform-level numbers, and its native Semrush integration gives keyword research directly inside the dashboard. IONOS’s rankingCoach on the Pro plan and competitor tracking via marketingRadar offer more prescriptive week-by-week SEO guidance for businesses actively working to rank for local keywords. IONOS’s builder lacks 301 redirect management, which is a real limitation when changing URL structures. Both are capable for most small businesses. Wix’s 74.86% Core Web Vitals pass rate and perfect median Lighthouse SEO score of 100 are strong platform-level numbers, and its native Semrush integration gives keyword research directly inside the dashboard. IONOS’s rankingCoach on the Pro plan and competitor tracking via marketingRadar offer more prescriptive week-by-week SEO guidance for businesses actively working to rank for local keywords. IONOS’s builder lacks 301 redirect management, which is a real limitation when changing URL structures.",
+      "source_comparison": "IONOS vs Wix"
+    },
+    {
+      "question": "Is IONOS better for European businesses?",
+      "answer": "IONOS has a stronger operational case for European-based businesses. Its data centers are GDPR-compliant, pricing is transparent in euros, the personal consultant model means direct contact with support in your time zone, and Momentum’s data processing runs on IONOS’s own European servers. Wix is also GDPR-compliant and operates globally, but IONOS’s European roots give it a specific edge in data residency and compliance documentation. IONOS has a stronger operational case for European-based businesses. Its data centers are GDPR-compliant, pricing is transparent in euros, the personal consultant model means direct contact with support in your time zone, and Momentum’s data processing runs on IONOS’s own European servers. Wix is also GDPR-compliant and operates globally, but IONOS’s European roots give it a specific edge in data residency and compliance documentation.",
+      "source_comparison": "IONOS vs Wix"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Wix Starter Tier",
+    "Promotional Price": "$ 17.00 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.2 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

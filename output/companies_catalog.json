@@ -1,0 +1,445 @@
+{
+  "total_companies": 55,
+  "companies": [
+    {
+      "company_name": "A2 Hosting",
+      "slug": "a2-hosting",
+      "rating": "4.6",
+      "starting_price": "$ 1.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/a2-hosting.json"
+    },
+    {
+      "company_name": "Arvixe",
+      "slug": "arvixe",
+      "rating": "1.9",
+      "starting_price": "$ 4.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/arvixe.json"
+    },
+    {
+      "company_name": "AWS",
+      "slug": "aws",
+      "rating": "4.2",
+      "starting_price": "Pay-as-you-go ($3.50/mo)",
+      "total_comparisons": 54,
+      "json_file": "companies/aws.json"
+    },
+    {
+      "company_name": "Bluehost",
+      "slug": "bluehost",
+      "rating": "4.5",
+      "starting_price": "$ 1.67 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/bluehost.json"
+    },
+    {
+      "company_name": "Cloudways",
+      "slug": "cloudways",
+      "rating": "4.6",
+      "starting_price": "$ 11.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/cloudways.json"
+    },
+    {
+      "company_name": "Contabo",
+      "slug": "contabo",
+      "rating": "4.3",
+      "starting_price": "$ 5.28 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/contabo.json"
+    },
+    {
+      "company_name": "DigitalOcean",
+      "slug": "digitalocean",
+      "rating": "4.3",
+      "starting_price": "$ 4.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/digitalocean.json"
+    },
+    {
+      "company_name": "eNom",
+      "slug": "enom",
+      "rating": "1.8",
+      "starting_price": "$ 5.96 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/enom.json"
+    },
+    {
+      "company_name": "FastComet",
+      "slug": "fastcomet",
+      "rating": "4.8",
+      "starting_price": "$ 1.79 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/fastcomet.json"
+    },
+    {
+      "company_name": "GoDaddy",
+      "slug": "godaddy",
+      "rating": "4.5",
+      "starting_price": "$ 0.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/godaddy.json"
+    },
+    {
+      "company_name": "Google Cloud Platform",
+      "slug": "google-cloud-platform",
+      "rating": "4.4",
+      "starting_price": "Pay-as-you-go ($5.00/mo)",
+      "total_comparisons": 54,
+      "json_file": "companies/google-cloud-platform.json"
+    },
+    {
+      "company_name": "Hetzner",
+      "slug": "hetzner",
+      "rating": "4.7",
+      "starting_price": "€ 4.50 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hetzner.json"
+    },
+    {
+      "company_name": "Host4ASP.NET",
+      "slug": "host4asp-net",
+      "rating": "3.8",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/host4asp-net.json"
+    },
+    {
+      "company_name": "HostArmada",
+      "slug": "hostarmada",
+      "rating": "4.9",
+      "starting_price": "$ 2.49 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostarmada.json"
+    },
+    {
+      "company_name": "HostGator",
+      "slug": "hostgator",
+      "rating": "4.4",
+      "starting_price": "$ 2.52 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostgator.json"
+    },
+    {
+      "company_name": "Hostinger",
+      "slug": "hostinger",
+      "rating": "4.6",
+      "starting_price": "$ 2.49 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostinger.json"
+    },
+    {
+      "company_name": "InfinityFree",
+      "slug": "infinityfree",
+      "rating": "3.5",
+      "starting_price": "Free / $0.00",
+      "total_comparisons": 54,
+      "json_file": "companies/infinityfree.json"
+    },
+    {
+      "company_name": "InMotion Hosting",
+      "slug": "inmotion-hosting",
+      "rating": "4.4",
+      "starting_price": "$ 2.29 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/inmotion-hosting.json"
+    },
+    {
+      "company_name": "InterServer",
+      "slug": "interserver",
+      "rating": "4.4",
+      "starting_price": "$ 2.50 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/interserver.json"
+    },
+    {
+      "company_name": "IONOS",
+      "slug": "ionos",
+      "rating": "4.2",
+      "starting_price": "$ 1.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/ionos.json"
+    },
+    {
+      "company_name": "Linode",
+      "slug": "linode",
+      "rating": "4.3",
+      "starting_price": "$ 5.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/linode.json"
+    },
+    {
+      "company_name": "Microsoft Azure",
+      "slug": "microsoft-azure",
+      "rating": "4.2",
+      "starting_price": "Pay-as-you-go ($13.39/mo)",
+      "total_comparisons": 54,
+      "json_file": "companies/microsoft-azure.json"
+    },
+    {
+      "company_name": "Namecheap",
+      "slug": "namecheap",
+      "rating": "4.3",
+      "starting_price": "$ 1.98 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/namecheap.json"
+    },
+    {
+      "company_name": "OVHcloud",
+      "slug": "ovhcloud",
+      "rating": "4.1",
+      "starting_price": "$ 3.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/ovhcloud.json"
+    },
+    {
+      "company_name": "SiteGround",
+      "slug": "siteground",
+      "rating": "4.7",
+      "starting_price": "$ 2.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/siteground.json"
+    },
+    {
+      "company_name": "SmarterASP.NET",
+      "slug": "smarterasp-net",
+      "rating": "3.9",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/smarterasp-net.json"
+    },
+    {
+      "company_name": "Squarespace",
+      "slug": "squarespace",
+      "rating": "4.2",
+      "starting_price": "$ 16.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/squarespace.json"
+    },
+    {
+      "company_name": "TMDHosting",
+      "slug": "tmdhosting",
+      "rating": "4.6",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/tmdhosting.json"
+    },
+    {
+      "company_name": "Vultr",
+      "slug": "vultr",
+      "rating": "4.3",
+      "starting_price": "$ 2.50 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/vultr.json"
+    },
+    {
+      "company_name": "Wix",
+      "slug": "wix",
+      "rating": "4.2",
+      "starting_price": "$ 17.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/wix.json"
+    },
+    {
+      "company_name": "WordPress.com",
+      "slug": "wordpress-com",
+      "rating": "4.1",
+      "starting_price": "$ 4.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/wordpress-com.json"
+    },
+    {
+      "company_name": "DreamHost",
+      "slug": "dreamhost",
+      "rating": "4.4",
+      "starting_price": "$ 2.59 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/dreamhost.json"
+    },
+    {
+      "company_name": "Liquid Web",
+      "slug": "liquidweb",
+      "rating": "4.7",
+      "starting_price": "$ 17.50 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/liquidweb.json"
+    },
+    {
+      "company_name": "HostPapa",
+      "slug": "hostpapa",
+      "rating": "4.3",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostpapa.json"
+    },
+    {
+      "company_name": "Hostwinds",
+      "slug": "hostwinds",
+      "rating": "4.4",
+      "starting_price": "$ 5.24 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostwinds.json"
+    },
+    {
+      "company_name": "Ultahost",
+      "slug": "ultahost",
+      "rating": "4.8",
+      "starting_price": "$ 3.29 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/ultahost.json"
+    },
+    {
+      "company_name": "Kamatera",
+      "slug": "kamatera",
+      "rating": "4.6",
+      "starting_price": "$ 4.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/kamatera.json"
+    },
+    {
+      "company_name": "Verpex Hosting",
+      "slug": "verpex-hosting",
+      "rating": "4.8",
+      "starting_price": "$ 1.33 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/verpex-hosting.json"
+    },
+    {
+      "company_name": "GreenGeeks",
+      "slug": "greengeeks",
+      "rating": "4.5",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/greengeeks.json"
+    },
+    {
+      "company_name": "WP Engine",
+      "slug": "wp-engine",
+      "rating": "4.6",
+      "starting_price": "$ 20.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/wp-engine.json"
+    },
+    {
+      "company_name": "Kinsta",
+      "slug": "kinsta",
+      "rating": "4.7",
+      "starting_price": "$ 30.00 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/kinsta.json"
+    },
+    {
+      "company_name": "ScalaHosting",
+      "slug": "scalahosting",
+      "rating": "4.7",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/scalahosting.json"
+    },
+    {
+      "company_name": "ChemiCloud",
+      "slug": "chemicloud",
+      "rating": "4.9",
+      "starting_price": "$ 2.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/chemicloud.json"
+    },
+    {
+      "company_name": "MochaHost",
+      "slug": "mochahost",
+      "rating": "3.9",
+      "starting_price": "$ 1.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/mochahost.json"
+    },
+    {
+      "company_name": "Name.com",
+      "slug": "name-com",
+      "rating": "4.0",
+      "starting_price": "$ 4.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/name-com.json"
+    },
+    {
+      "company_name": "AccuWeb Hosting",
+      "slug": "accuweb-hosting",
+      "rating": "4.6",
+      "starting_price": "$ 3.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/accuweb-hosting.json"
+    },
+    {
+      "company_name": "WebHostingPad",
+      "slug": "webhostingpad",
+      "rating": "3.8",
+      "starting_price": "$ 1.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/webhostingpad.json"
+    },
+    {
+      "company_name": "FatCow",
+      "slug": "fatcow",
+      "rating": "3.2",
+      "starting_price": "$ 4.08 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/fatcow.json"
+    },
+    {
+      "company_name": "JustHost",
+      "slug": "justhost",
+      "rating": "3.6",
+      "starting_price": "$ 3.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/justhost.json"
+    },
+    {
+      "company_name": "Domain.com",
+      "slug": "domain-com",
+      "rating": "3.9",
+      "starting_price": "$ 3.75 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/domain-com.json"
+    },
+    {
+      "company_name": "HostMonster",
+      "slug": "hostmonster",
+      "rating": "3.7",
+      "starting_price": "$ 4.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostmonster.json"
+    },
+    {
+      "company_name": "iPage",
+      "slug": "ipage",
+      "rating": "3.5",
+      "starting_price": "$ 1.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/ipage.json"
+    },
+    {
+      "company_name": "Midphase",
+      "slug": "midphase",
+      "rating": "3.7",
+      "starting_price": "$ 2.95 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/midphase.json"
+    },
+    {
+      "company_name": "iFastNet",
+      "slug": "ifastnet",
+      "rating": "3.9",
+      "starting_price": "$ 4.99 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/ifastnet.json"
+    },
+    {
+      "company_name": "HostWHT",
+      "slug": "hostwht",
+      "rating": "4.2",
+      "starting_price": "$ 2.50 / month",
+      "total_comparisons": 54,
+      "json_file": "companies/hostwht.json"
+    }
+  ]
+}

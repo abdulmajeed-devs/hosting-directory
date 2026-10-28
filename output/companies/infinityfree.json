@@ -1,0 +1,81 @@
+{
+  "company_name": "InfinityFree",
+  "slug": "infinityfree",
+  "profile": {
+    "overall_rating": "3.5",
+    "review_count": "310 reviews",
+    "starting_price": "Free / $0.00",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "FastComet vs InfinityFree",
+      "opponents": [
+        "FastComet"
+      ],
+      "result": "Loss",
+      "declared_winner": "FastComet",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/fastcomet-vs-infinityfree/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "No",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "Free / $0.00",
+    "User Friendly": "2.7",
+    "Support": "2.3",
+    "Features": "2.6",
+    "Reliability": "2.4",
+    "Pricing": "2.8",
+    "Latest positive review": "Ian Rochat 09 Feb, 2023 | 05:02 5.0 A review of the \"expert\" review The reviewer likes to use exaggerated statements and it CLEARLY not an expert by saying something as stupid as (and this is a direct quote from the re...view): \"a basic SSL certificate without encryption\". There is no such thing. SSL is never not encrypted, encryption is what it is. Now maybe he meant it's a self-generated SSL certificate that is not through a certificate authority, while that is not ideal it is still encrypted, even a someone that is barely tech-saavy may know that fact. So to claim to be an expert and stating that is alarming. The whole review is suspect, I would not take this site's rating to be meaningful what-so-ever. Ian Show MoreShow less",
+    "Latest negative review": "Boris Bin 26 Aug, 2024 | 15:08 1.0 fake free hosting This is a fake FREE hosting provider. If you are not going to pay them within 3 month they are going to disable your account. do not waste your time w...ith them, they do not deserve it. plus there is no support Show MoreShow less"
+  },
+  "faqs": [],
+  "plan_comparison": {
+    "Starter Plan Name": "InfinityFree Starter Tier",
+    "Promotional Price": "Free / $0.00",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "3.5 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

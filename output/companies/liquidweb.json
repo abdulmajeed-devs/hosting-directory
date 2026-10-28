@@ -1,0 +1,72 @@
+{
+  "company_name": "Liquid Web",
+  "slug": "liquidweb",
+  "profile": {
+    "overall_rating": "4.7",
+    "review_count": "820 reviews",
+    "starting_price": "$ 17.50 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 54,
+    "wins": 27,
+    "losses": 27,
+    "ties": 0,
+    "win_rate_percentage": 50.0
+  },
+  "head_to_head": [],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 17.50 / month"
+  },
+  "faqs": [
+    {
+      "question": "Is Liquid Web good for beginners?",
+      "answer": "Yes, Liquid Web provides an intuitive dashboard, 1-click WordPress installation, and 24/7 customer support."
+    },
+    {
+      "question": "What is the starting price for Liquid Web?",
+      "answer": "Liquid Web introductory plans start at approximately $ 17.50 / month."
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Managed Cloud VPS",
+    "Promotional Price": "$17.50 / month",
+    "Standard Renewal Price": "$35.00 / month",
+    "Websites Allowed": "Unlimited Websites",
+    "Storage Space": "40 GB High-Speed SSD",
+    "Bandwidth / Traffic": "10 TB Monthly Bandwidth",
+    "Free Domain": "No (Enterprise Infrastructure)",
+    "Free SSL Certificate": "Free Standard SSL Certificates",
+    "Money-Back Guarantee": "30 Days Guarantee",
+    "Email Accounts": "Unlimited Professional Email Inboxes"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "100% Network & Power Uptime SLA!",
+    "Web Server Software": "Apache, Nginx, or LiteSpeed Options",
+    "Caching Technology": "Server-side Object Caching + Redis Support",
+    "Global Server Locations": "US Central (Michigan), US West (Arizona), Europe (Amsterdam)",
+    "CDN Integration": "Cloudflare CDN Integration",
+    "Storage Technology": "Enterprise Tier 1 Pure SSD Storage",
+    "Automated Backups": "Acronis Cyber Backup Cloud Solutions",
+    "PHP & Protocol": "Full Multi-PHP Support with cPanel/InterWorx"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Heroic Support (59-second response SLA)",
+    "Phone Support": "Yes, 59-second Phone Response SLA!",
+    "Ticket / Email Support": "59-minute Helpdesk Ticket Response SLA",
+    "Free Website Migration": "Dedicated White-Glove Migration Team (100% Free)",
+    "Knowledge Base": "Extensive Server Administration Guides",
+    "HostAdvice Support Rating": "4.9 / 5.0",
+    "Ease of Use Score": "4.6 / 5.0 (InterWorx, cPanel, or Plesk)"
+  }
+}

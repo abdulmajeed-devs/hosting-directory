@@ -1,0 +1,211 @@
+{
+  "company_name": "AWS",
+  "slug": "aws",
+  "profile": {
+    "overall_rating": "4.2",
+    "review_count": "1,120 reviews",
+    "starting_price": "Pay-as-you-go ($3.50/mo)",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 6,
+    "wins": 0,
+    "losses": 6,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Amazon Web Services (AWS) vs GoDaddy",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Loss",
+      "declared_winner": "GoDaddy",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-godaddy/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Amazon Web Services (AWS) vs OVHcloud",
+      "opponents": [
+        "OVHcloud"
+      ],
+      "result": "Loss",
+      "declared_winner": "OVHcloud",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-ovhcloud/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Amazon Web Services (AWS) vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-blue-host/",
+      "template_type": "spec_grid"
+    },
+    {
+      "comparison_title": "Linode vs Amazon Web Services (AWS)",
+      "opponents": [
+        "Linode"
+      ],
+      "result": "Loss",
+      "declared_winner": "Linode",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-linode/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Amazon Web Services (AWS) vs Vultr",
+      "opponents": [
+        "Vultr"
+      ],
+      "result": "Loss",
+      "declared_winner": "Vultr",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-vultr/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Amazon Web Services (AWS) vs Digital Ocean",
+      "opponents": [
+        "DigitalOcean"
+      ],
+      "result": "Loss",
+      "declared_winner": "DigitalOcean",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/amazon-web-services-vs-digital-ocean/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "No",
+    "Free SSL Certificate": "Yes (via ACM for integrated services)",
+    "Money Back Guarantee": "No (pay only for usage)",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.99% SLA (varies by service)",
+    "Starting Price": "Pay-as-you-go (Lightsail from $3.50/mo)",
+    "Free Site Migration": "No",
+    "Storage": "Pay-per-GB (S3, EBS, EFS – unlimited scalability)",
+    "Automated Backups": "Yes (requires configuration, additional costs)",
+    "Bandwidth": "Pay-per-GB for data transfer out",
+    "Free Domain Name": "No",
+    "Page Load Speed": "LCP: 818ms, Fully Loaded: 6.4s",
+    "24/7 Customer Support": "Yes (billing only on free plan; technical support requires paid plans)",
+    "Server Locations": "36 regions, 114 availability zones globally",
+    "Starting price": "Pay-as-you-go ($3.50/mo)",
+    "User Friendly": "1.9",
+    "Support": "1.7",
+    "Features": "2.1",
+    "Reliability": "2.0",
+    "Pricing": "1.9",
+    "Latest positive review": "Aziz Baroody 23 Aug, 2018 | 17:08 5.0 AWS Customer Support Review By someone in this business for 17 years and owns 5 other accounts with Server providers If anyone ever wants to know the truth and facts about AWS Customer Supports Vs GoDaddy, Hostway, Hosting Source, Google, Apple READ THIS: 7 years no...w dealing with AWS I cannot explain how many times they have gone beyond what their rules and Regs and policies are to HELP, SUPPORT and maintain whatever it takes for AWS to serve and keep us as a client. They are the NUMBER 1 Company and they already WON Best Customer Support globally as far as I am concerned Show MoreShow less",
+    "Latest negative review": "Rick Strong 12 Jun, 2025 | 16:06 1.0 Harsh verification As soon as you create a website, you’re immediately subjected to an extremely strict verification process, during which your site is completely frozen.... The website doesn’t work, and you won’t get access to your files until you somehow pass this so-called “review.” They love disabling the whole system just because something seems suspicious to them — no real explanation, no support, just a locked site and radio silence. Stay away unless you enjoy wasting your time and losing access to your own content. Show MoreShow less"
+  },
+  "faqs": [
+    {
+      "question": "Can I use AWS and GoDaddy together for my website?",
+      "answer": "Yes, you can combine both services. Many users register their domain with GoDaddy (for easier management and domain privacy) while hosting their website on AWS for scalability and performance. You’d simply point your GoDaddy domain’s DNS to your AWS resources by updating nameservers. This hybrid approach lets you leverage GoDaddy’s user-friendly domain management with AWS’s powerful infrastructure. Yes, you can combine both services. Many users register their domain with GoDaddy (for easier management and domain privacy) while hosting their website on AWS for scalability and performance. You’d simply point your GoDaddy domain’s DNS to your AWS resources by updating nameservers. This hybrid approach lets you leverage GoDaddy’s user-friendly domain management with AWS’s powerful infrastructure.",
+      "source_comparison": "Amazon Web Services (AWS) vs GoDaddy"
+    },
+    {
+      "question": "Which platform is better for e-commerce websites?",
+      "answer": "GoDaddy is better for small to medium e-commerce sites due to its one-click WooCommerce installation, managed hosting, included SSL certificates, and straightforward setup. AWS is better for large-scale e-commerce operations requiring custom infrastructure, high traffic handling, advanced scalability, and integration with multiple AWS services like AI/ML for recommendations. GoDaddy is better for small to medium e-commerce sites due to its one-click WooCommerce installation, managed hosting, included SSL certificates, and straightforward setup. AWS is better for large-scale e-commerce operations requiring custom infrastructure, high traffic handling, advanced scalability, and integration with multiple AWS services like AI/ML for recommendations.",
+      "source_comparison": "Amazon Web Services (AWS) vs GoDaddy"
+    },
+    {
+      "question": "Do I need coding knowledge to use AWS or GoDaddy?",
+      "answer": "GoDaddy requires no coding knowledge. You can build and manage websites entirely through visual interfaces like cPanel and their website builder. AWS requires significant technical knowledge, including an understanding of Linux servers, command-line interfaces, networking concepts (VPCs, subnets, security groups), and cloud architecture. GoDaddy requires no coding knowledge. You can build and manage websites entirely through visual interfaces like cPanel and their website builder. AWS requires significant technical knowledge, including an understanding of Linux servers, command-line interfaces, networking concepts (VPCs, subnets, security groups), and cloud architecture.",
+      "source_comparison": "Amazon Web Services (AWS) vs GoDaddy"
+    },
+    {
+      "question": "Can I host multiple websites on AWS or GoDaddy?",
+      "answer": "Both platforms support multiple websites, but differently. GoDaddy’s plans specify how many websites you can host (1 to 200, depending on the plan) with straightforward addon domain management in cPanel. AWS has virtually unlimited capacity. You can host as many websites as your infrastructure supports, whether on multiple EC2 instances, separate S3 buckets for static sites, or even hundreds of sites on a single well-configured server. AWS offers more flexibility but requires technical knowledge to implement. Both platforms support multiple websites, but differently. GoDaddy’s plans specify how many websites you can host (1 to 200, depending on the plan) with straightforward addon domain management in cPanel. AWS has virtually unlimited capacity. You can host as many websites as your infrastructure supports, whether on multiple EC2 instances, separate S3 buckets for static sites, or even hundreds of sites on a single well-configured server. AWS offers more flexibility but requires technical knowledge to implement.",
+      "source_comparison": "Amazon Web Services (AWS) vs GoDaddy"
+    },
+    {
+      "question": "Can I migrate from AWS to OVHcloud or vice versa?",
+      "answer": "Yes, migration between providers is possible but requires careful planning. From AWS to OVHcloud, you’ll need to export your data from S3/EBS, download application files, export databases, and reconfigure services in OVHcloud’s environment. OVHcloud offers migration assistance for some hosting plans. From OVHcloud to AWS, the process involves similar data export and manual reconfiguration. Neither provider offers automated cross-platform migration tools, so expect some downtime during transition. Yes, migration between providers is possible but requires careful planning. From AWS to OVHcloud, you’ll need to export your data from S3/EBS, download application files, export databases, and reconfigure services in OVHcloud’s environment. OVHcloud offers migration assistance for some hosting plans. From OVHcloud to AWS, the process involves similar data export and manual reconfiguration. Neither provider offers automated cross-platform migration tools, so expect some downtime during transition.",
+      "source_comparison": "Amazon Web Services (AWS) vs OVHcloud"
+    },
+    {
+      "question": "Do AWS and OVHcloud offer managed database services?",
+      "answer": "Yes, both providers offer managed databases. AWS provides Amazon RDS (supporting MySQL, PostgreSQL, MariaDB, Oracle, SQL Server) and Amazon Aurora with automated backups, patching, and scaling. Pricing varies by instance type and storage. OVHcloud offers managed databases for MySQL, PostgreSQL, MongoDB, Redis/Valkey, Cassandra, Kafka, and OpenSearch with three service tiers (Essential, Business, Enterprise) starting around $0.06-0.09/hour per node. Yes, both providers offer managed databases. AWS provides Amazon RDS (supporting MySQL, PostgreSQL, MariaDB, Oracle, SQL Server) and Amazon Aurora with automated backups, patching, and scaling. Pricing varies by instance type and storage. OVHcloud offers managed databases for MySQL, PostgreSQL, MongoDB, Redis/Valkey, Cassandra, Kafka, and OpenSearch with three service tiers (Essential, Business, Enterprise) starting around $0.06-0.09/hour per node.",
+      "source_comparison": "Amazon Web Services (AWS) vs OVHcloud"
+    },
+    {
+      "question": "Can I use my own domain name with AWS and OVHcloud?",
+      "answer": "Yes, both providers support custom domain names. With OVHcloud, you can register new domains directly (with first-year free on hosting plans) or transfer existing domains, then link them to your hosting through their Control Panel. With AWS, you’ll use Route 53 for DNS management, which requires understanding DNS records (A, CNAME, MX) and manually configuring nameservers with your domain registrar. Yes, both providers support custom domain names. With OVHcloud, you can register new domains directly (with first-year free on hosting plans) or transfer existing domains, then link them to your hosting through their Control Panel. With AWS, you’ll use Route 53 for DNS management, which requires understanding DNS records (A, CNAME, MX) and manually configuring nameservers with your domain registrar.",
+      "source_comparison": "Amazon Web Services (AWS) vs OVHcloud"
+    },
+    {
+      "question": "Can I migrate from AWS to Linode or vice versa?",
+      "answer": "Yes, you can migrate between AWS and Linode, but it requires manual effort. Both platforms use standard Linux distributions, so you’ll need to create backups of your data, export databases, transfer files via rsync or SCP, and reconfigure your applications on the new platform. Yes, you can migrate between AWS and Linode, but it requires manual effort. Both platforms use standard Linux distributions, so you’ll need to create backups of your data, export databases, transfer files via rsync or SCP, and reconfigure your applications on the new platform.",
+      "source_comparison": "Linode vs Amazon Web Services (AWS)"
+    },
+    {
+      "question": "Do AWS and Linode offer managed WordPress hosting?",
+      "answer": "Neither AWS nor Linode offers traditional managed WordPress hosting like WP Engine or Kinsta. AWS Lightsail provides simplified WordPress deployment with pre-configured blueprints, but you’re still responsible for updates, security patches, and server management. Linode’s Marketplace offers one-click WordPress installation, and their optional Managed service ($100/month) includes cPanel/WHM and basic server management, but WordPress-specific optimization and updates remain your responsibility. Neither AWS nor Linode offers traditional managed WordPress hosting like WP Engine or Kinsta. AWS Lightsail provides simplified WordPress deployment with pre-configured blueprints, but you’re still responsible for updates, security patches, and server management. Linode’s Marketplace offers one-click WordPress installation, and their optional Managed service ($100/month) includes cPanel/WHM and basic server management, but WordPress-specific optimization and updates remain your responsibility.",
+      "source_comparison": "Linode vs Amazon Web Services (AWS)"
+    },
+    {
+      "question": "Which cloud provider offers better API and developer tools?",
+      "answer": "AWS offers significantly more comprehensive API and developer tools with SDKs for virtually every programming language, extensive CLI tools, CloudFormation for infrastructure-as-code, and CodePipeline for CI/CD workflows. The AWS ecosystem includes over 200 integrated services accessible via API. AWS offers significantly more comprehensive API and developer tools with SDKs for virtually every programming language, extensive CLI tools, CloudFormation for infrastructure-as-code, and CodePipeline for CI/CD workflows. The AWS ecosystem includes over 200 integrated services accessible via API.",
+      "source_comparison": "Linode vs Amazon Web Services (AWS)"
+    },
+    {
+      "question": "Can I use AWS Free Tier with Vultr simultaneously?",
+      "answer": "Yes, you can use both simultaneously. AWS Free Tier provides 750 hours/month of t2.micro or t3.micro instances for 12 months, plus free storage and data transfer limits. Vultr has no free tier but starts at $2.50/month. Many developers use AWS Free Tier for learning while running production workloads on Vultr’s predictable pricing. Yes, you can use both simultaneously. AWS Free Tier provides 750 hours/month of t2.micro or t3.micro instances for 12 months, plus free storage and data transfer limits. Vultr has no free tier but starts at $2.50/month. Many developers use AWS Free Tier for learning while running production workloads on Vultr’s predictable pricing.",
+      "source_comparison": "Amazon Web Services (AWS) vs Vultr"
+    },
+    {
+      "question": "Does Vultr offer managed Kubernetes like AWS EKS?",
+      "answer": "Yes, Vultr offers Vultr Kubernetes Engine (VKE) with straightforward pricing starting at $10/month for control plane plus worker node costs. AWS EKS charges $0.10/hour (~$73/month) just for the control plane, plus separate EC2 instance costs. VKE is simpler to configure but lacks EKS’s advanced features like Fargate integration and extensive AWS service integrations. Yes, Vultr offers Vultr Kubernetes Engine (VKE) with straightforward pricing starting at $10/month for control plane plus worker node costs. AWS EKS charges $0.10/hour (~$73/month) just for the control plane, plus separate EC2 instance costs. VKE is simpler to configure but lacks EKS’s advanced features like Fargate integration and extensive AWS service integrations.",
+      "source_comparison": "Amazon Web Services (AWS) vs Vultr"
+    },
+    {
+      "question": "Can I transfer my Reserved Instances from AWS to Vultr?",
+      "answer": "No, AWS Reserved Instances are commitment-based pricing contracts specific to AWS and cannot transfer to other providers. If migrating from AWS to Vultr, you’ll need to let your Reserved Instance term expire or sell it on the AWS Reserved Instance Marketplace. Plan migrations carefully to avoid paying for unused AWS commitments while running Vultr infrastructure. No, AWS Reserved Instances are commitment-based pricing contracts specific to AWS and cannot transfer to other providers. If migrating from AWS to Vultr, you’ll need to let your Reserved Instance term expire or sell it on the AWS Reserved Instance Marketplace. Plan migrations carefully to avoid paying for unused AWS commitments while running Vultr infrastructure.",
+      "source_comparison": "Amazon Web Services (AWS) vs Vultr"
+    },
+    {
+      "question": "Which provider offers better database performance for high-traffic applications?",
+      "answer": "AWS RDS generally outperforms Vultr Managed Databases for high-traffic applications due to Multi-AZ deployment with automatic failover, read replicas across regions, and Performance Insights for query optimization. However, AWS RDS costs significantly more. A db.m5.large starts around $175/month versus Vultr’s comparable managed database at $60/month. For applications under 10,000 concurrent connections, Vultr’s performance-to-price ratio is superior. AWS RDS generally outperforms Vultr Managed Databases for high-traffic applications due to Multi-AZ deployment with automatic failover, read replicas across regions, and Performance Insights for query optimization. However, AWS RDS costs significantly more. A db.m5.large starts around $175/month versus Vultr’s comparable managed database at $60/month. For applications under 10,000 concurrent connections, Vultr’s performance-to-price ratio is superior.",
+      "source_comparison": "Amazon Web Services (AWS) vs Vultr"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Amazon Lightsail",
+    "Promotional Price": "$3.50 / month",
+    "Standard Renewal Price": "$3.50 / month (Pay-As-You-Go)",
+    "Websites Allowed": "Unlimited (Isolated VPS Instance)",
+    "Storage Space": "20 GB High-Performance SSD",
+    "Bandwidth / Traffic": "1 TB High-Speed Data Transfer",
+    "Free Domain": "No (Amazon Route 53 Registrar)",
+    "Free SSL Certificate": "Free AWS Certificate Manager (ACM)",
+    "Money-Back Guarantee": "AWS Free Tier (3 Months Free Lightsail)",
+    "Email Accounts": "Amazon SES (10,000 free emails/month)"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.99% Enterprise Uptime SLA",
+    "Web Server Software": "EC2 Virtualized Cloud (Custom Web Stack)",
+    "Caching Technology": "Amazon ElastiCache (Redis / Memcached)",
+    "Global Server Locations": "33 Global Geographic Regions & 105 Availability Zones",
+    "CDN Integration": "Amazon CloudFront Global Edge Network (450+ PoPs)",
+    "Storage Technology": "AWS Elastic Block Store (EBS) SSDs",
+    "Automated Backups": "Automated Snapshots & Scheduled AMI Images",
+    "PHP & Protocol": "Native Cloud Support for All Languages & Frameworks"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Available on Developer / Business Support Plans",
+    "Phone Support": "Available on Business Support Plan ($100+/month)",
+    "Ticket / Email Support": "24/7 Technical Ticket Support System",
+    "Free Website Migration": "AWS Application Migration Service (MGN)",
+    "Knowledge Base": "Massive Technical Whitepapers & API Docs",
+    "HostAdvice Support Rating": "4.2 / 5.0",
+    "Ease of Use Score": "3.5 / 5.0 (Complex Enterprise Management Console)"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "company_name": "Cloudways",
+  "slug": "cloudways",
+  "profile": {
+    "overall_rating": "4.6",
+    "review_count": "1,450 reviews",
+    "starting_price": "$ 11.00 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 2,
+    "wins": 2,
+    "losses": 0,
+    "ties": 0,
+    "win_rate_percentage": 100.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Cloudways vs SiteGround",
+      "opponents": [
+        "SiteGround"
+      ],
+      "result": "Win",
+      "declared_winner": "Cloudways",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/cloudways-vs-siteground/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Cloudways vs DigitalOcean",
+      "opponents": [
+        "DigitalOcean"
+      ],
+      "result": "Win",
+      "declared_winner": "Cloudways",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/cloudways-vs-digital-ocean/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "No",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 support, live chat, phone support, video guides, knowledgebase, and ticket support.",
+    "Uptime Guarantee": "99.99%",
+    "Free Site Migration": "Yes",
+    "Starting Price": "$11/month",
+    "Storage": "Up to 3840 GB",
+    "Bandwidth": "Up to 12 TB",
+    "Free Domain Name": "No",
+    "Free One-Click WordPress Installation": "Yes",
+    "Average Page Load Speed": "1.2 seconds",
+    "Server location": "America, Europe, Asia, and Australia",
+    "DDoS Protection": "Yes",
+    "Daily Backups": "Yes",
+    "Automated Backups": "Included (daily/on-demand)",
+    "Page Load Speed": "925ms LCP, 99% GTmetrix, 119ms TTFB",
+    "24/7 Customer Support": "Live chat (all plans)",
+    "Server Locations": "65+ locations (5 cloud providers)",
+    "Starting price": "$ 11.00 / month"
+  },
+  "faqs": [
+    {
+      "question": "What kind of hosting does Cloudways offer?",
+      "answer": "When you get a website on Cloudways, you are using a hosting known as cloud hosting. Cloud hosting allows your website to exist on a cloud server, instead of a traditional physical server. When you get a website on Cloudways, you are using a hosting known as cloud hosting. Cloud hosting allows your website to exist on a cloud server, instead of a traditional physical server.",
+      "source_comparison": "Cloudways vs SiteGround"
+    },
+    {
+      "question": "Is Cloudways faster than SiteGround?",
+      "answer": "Generally, Cloudways, with its managed cloud hosting options from top providers like DigitalOcean and AWS, might offer faster server speeds and more scalability. However, SiteGround also delivers excellent performance, particularly for shared and WordPress hosting, with optimizations like built-in caching and CDN integration. Generally, Cloudways, with its managed cloud hosting options from top providers like DigitalOcean and AWS, might offer faster server speeds and more scalability. However, SiteGround also delivers excellent performance, particularly for shared and WordPress hosting, with optimizations like built-in caching and CDN integration.",
+      "source_comparison": "Cloudways vs SiteGround"
+    },
+    {
+      "question": "Can I use Cloudways with DigitalOcean servers?",
+      "answer": "Yes, Cloudways actually uses DigitalOcean as one of its five infrastructure providers. When you sign up for Cloudways, you can choose DigitalOcean servers as your underlying infrastructure while benefiting from Cloudways’ managed hosting layer, which includes automated backups, security features, expert support, and optimized performance stack on top of DigitalOcean’s infrastructure. Yes, Cloudways actually uses DigitalOcean as one of its five infrastructure providers. When you sign up for Cloudways, you can choose DigitalOcean servers as your underlying infrastructure while benefiting from Cloudways’ managed hosting layer, which includes automated backups, security features, expert support, and optimized performance stack on top of DigitalOcean’s infrastructure.",
+      "source_comparison": "Cloudways vs DigitalOcean"
+    },
+    {
+      "question": "Does DigitalOcean offer managed WordPress hosting like Cloudways?",
+      "answer": "No, DigitalOcean doesn’t offer traditional managed WordPress hosting. They provide raw infrastructure (Droplets) that you must configure and manage yourself, or their App Platform for simplified deployments. However, DigitalOcean partners with Cloudways to offer managed hosting, and they recommend Cloudways in their dashboard for users seeking a fully managed WordPress experience without technical server administration. No, DigitalOcean doesn’t offer traditional managed WordPress hosting. They provide raw infrastructure (Droplets) that you must configure and manage yourself, or their App Platform for simplified deployments. However, DigitalOcean partners with Cloudways to offer managed hosting, and they recommend Cloudways in their dashboard for users seeking a fully managed WordPress experience without technical server administration.",
+      "source_comparison": "Cloudways vs DigitalOcean"
+    },
+    {
+      "question": "Can I transfer my website from DigitalOcean to Cloudways?",
+      "answer": "Yes, you can easily transfer your website from DigitalOcean to Cloudways. Cloudways offers one free professional migration where their expert team handles the entire process for you. Alternatively, you can use the Cloudways WordPress Migrator plugin to automate the migration yourself. The process typically takes 24-48 hours with expert migration and involves no downtime or broken functionality. Yes, you can easily transfer your website from DigitalOcean to Cloudways. Cloudways offers one free professional migration where their expert team handles the entire process for you. Alternatively, you can use the Cloudways WordPress Migrator plugin to automate the migration yourself. The process typically takes 24-48 hours with expert migration and involves no downtime or broken functionality.",
+      "source_comparison": "Cloudways vs DigitalOcean"
+    },
+    {
+      "question": "Which platform is better for e-commerce websites?",
+      "answer": "Cloudways is better for e-commerce websites due to its managed features specifically optimized for WooCommerce and high-traffic stores. It includes built-in caching (Redis, Varnish, Memcached), automated backups, security scanning, and the Autonomous plan with auto-scaling for traffic spikes. DigitalOcean requires you to manually implement all these optimizations yourself, which demands significant technical expertise to achieve similar performance and reliability for online stores. Cloudways is better for e-commerce websites due to its managed features specifically optimized for WooCommerce and high-traffic stores. It includes built-in caching (Redis, Varnish, Memcached), automated backups, security scanning, and the Autonomous plan with auto-scaling for traffic spikes. DigitalOcean requires you to manually implement all these optimizations yourself, which demands significant technical expertise to achieve similar performance and reliability for online stores.",
+      "source_comparison": "Cloudways vs DigitalOcean"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "DigitalOcean 1GB Server",
+    "Promotional Price": "$11.00 / month",
+    "Standard Renewal Price": "$14.00 / month (No Contract Lock-in)",
+    "Websites Allowed": "Unlimited Applications on 1 Server",
+    "Storage Space": "25 GB NVMe Storage",
+    "Bandwidth / Traffic": "1 TB High-Speed Bandwidth",
+    "Free Domain": "No (Managed Cloud Integrator)",
+    "Free SSL Certificate": "Free 1-Click Let's Encrypt SSL",
+    "Money-Back Guarantee": "3-Day Free Trial (No Credit Card required)",
+    "Email Accounts": "Rackspace Email Add-on ($1/mo per inbox)"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.99% Cloud Infrastructure SLA",
+    "Web Server Software": "ThunderStack (Nginx, Apache, Varnish, Memcached)",
+    "Caching Technology": "Advanced Caching (Breeze, Redis Object Cache Pro)",
+    "Global Server Locations": "65+ Locations (Choose DigitalOcean, AWS, or Google Cloud)",
+    "CDN Integration": "Cloudways Enterprise CDN Powered by Cloudflare",
+    "Storage Technology": "High-Speed NVMe Storage",
+    "Automated Backups": "Automated Hourly to Daily Offsite Backups",
+    "PHP & Protocol": "PHP 7.4 - 8.3 Engine Switcher"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Expert Live Chat Support",
+    "Phone Support": "Phone Support on Premium Add-on",
+    "Ticket / Email Support": "24/7 Priority Ticketing",
+    "Free Website Migration": "1 Free Managed Expert Migration + Free Migrator Plugin",
+    "Knowledge Base": "Extensive Cloud Optimization Tutorials",
+    "HostAdvice Support Rating": "4.7 / 5.0",
+    "Ease of Use Score": "4.7 / 5.0 (Intuitive Cloudways Console)"
+  }
+}

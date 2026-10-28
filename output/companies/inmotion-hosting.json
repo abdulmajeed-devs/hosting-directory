@@ -1,0 +1,99 @@
+{
+  "company_name": "InMotion Hosting",
+  "slug": "inmotion-hosting",
+  "profile": {
+    "overall_rating": "4.4",
+    "review_count": "1,140 reviews",
+    "starting_price": "$ 2.29 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 2,
+    "wins": 0,
+    "losses": 1,
+    "ties": 1,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "InMotion vs GoDaddy - Discover the Best Choice",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Tie / Inconclusive",
+      "declared_winner": "Inconclusive / Neutral",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-inmotion-hosting/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Bluehost vs InMotion",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-inmotion-hosting/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "90 days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 support, phone support, email support, forum support, video guides, knowledgebase, ticket support, live chat.",
+    "Uptime Guarantee": "99.99%",
+    "Free Site Migration": "Yes",
+    "Starting Price": "$2.99/mo",
+    "Storage": "100GB SSD to unlimited NVMs SSDs on shared hosting plans",
+    "Bandwidth": "Unmetered",
+    "Free Domain Name": "Yes, on some plans",
+    "One-Click WordPress Installation": "Yes",
+    "Average Page Load Speed": "3.4s",
+    "Server location": "Europe and the United States.",
+    "Daily Backups": "Yes",
+    "Starting price": "$ 2.29 / month"
+  },
+  "faqs": [
+    {
+      "question": "Why shouldn’t I use Bluehost?",
+      "answer": "Bluehost is a tad slower than competitors like InMotion hosting. However, for most people, the slow speed is not noticeable. Bluehost is a tad slower than competitors like InMotion hosting. However, for most people, the slow speed is not noticeable.",
+      "source_comparison": "Bluehost vs InMotion"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "InMotion Hosting Starter Tier",
+    "Promotional Price": "$ 2.29 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.4 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

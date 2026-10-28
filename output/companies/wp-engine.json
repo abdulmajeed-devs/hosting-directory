@@ -1,0 +1,72 @@
+{
+  "company_name": "WP Engine",
+  "slug": "wp-engine",
+  "profile": {
+    "overall_rating": "4.6",
+    "review_count": "1,240 reviews",
+    "starting_price": "$ 20.00 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 54,
+    "wins": 27,
+    "losses": 27,
+    "ties": 0,
+    "win_rate_percentage": 50.0
+  },
+  "head_to_head": [],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 20.00 / month"
+  },
+  "faqs": [
+    {
+      "question": "Is WP Engine good for beginners?",
+      "answer": "Yes, WP Engine provides an intuitive dashboard, 1-click WordPress installation, and 24/7 customer support."
+    },
+    {
+      "question": "What is the starting price for WP Engine?",
+      "answer": "WP Engine introductory plans start at approximately $ 20.00 / month."
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Startup Managed Plan",
+    "Promotional Price": "$20.00 / month",
+    "Standard Renewal Price": "$30.00 / month",
+    "Websites Allowed": "1 WordPress Site",
+    "Storage Space": "10 GB Storage",
+    "Bandwidth / Traffic": "50 GB Bandwidth (~25,000 visits)",
+    "Free Domain": "No (Managed WordPress Ecosystem)",
+    "Free SSL Certificate": "Free Automated SSL Certificates",
+    "Money-Back Guarantee": "60 Days Money-Back Guarantee",
+    "Email Accounts": "No (Third-Party SMTP Recommended)"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.95% Enterprise SLA",
+    "Web Server Software": "Multi-Cloud Infrastructure (Google Cloud & AWS Tier-1)",
+    "Caching Technology": "EverCache Proprietary WordPress Caching",
+    "Global Server Locations": "Global Multi-Cloud Data Centers (US, EU, Asia, Australia)",
+    "CDN Integration": "Integrated Global CDN Powered by Cloudflare",
+    "Storage Technology": "Enterprise Cloud SSD Storage",
+    "Automated Backups": "Automatic Daily Backups + 1-Click Development Staging",
+    "PHP & Protocol": "Latest PHP 8.2+ with Managed Security Patching"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7 Live Chat with WordPress Specialists",
+    "Phone Support": "Yes, 24/7 Phone Support Available on All Plans",
+    "Ticket / Email Support": "Technical Helpdesk & Priority Queue",
+    "Free Website Migration": "Free Automated Migration Plugin",
+    "Knowledge Base": "Resource Center & Developer Documentation",
+    "HostAdvice Support Rating": "4.8 / 5.0",
+    "Ease of Use Score": "4.8 / 5.0 (Custom WP Engine User Portal)"
+  }
+}
