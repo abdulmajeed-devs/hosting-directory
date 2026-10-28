@@ -1,0 +1,81 @@
+{
+  "company_name": "Arvixe",
+  "slug": "arvixe",
+  "profile": {
+    "overall_rating": "1.9",
+    "review_count": "85 reviews",
+    "starting_price": "$ 4.00 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Hosting.com vs Arvixe",
+      "opponents": [
+        "A2 Hosting"
+      ],
+      "result": "Loss",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-arvixe/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 4.00 / month",
+    "User Friendly": "1.8",
+    "Support": "1.5",
+    "Features": "2.0",
+    "Reliability": "1.7",
+    "Pricing": "2.3",
+    "Latest positive review": "Ma. Paulina Francesca Del Mundo 28 Nov, 2017 | 19:11 4.6 Great support I accidentally deleted my entire website (my fault), and my backups weren't working properly, but they managed to provide a backup and support within ...record time. Saved me from a panic attack. Truly appreciate that! Some cons: a bit slower than my previous BlueHost, but definitely far less expensive. Also uses the latest MySQL on VPS only, not shared hosting. Show MoreShow less",
+    "Latest negative review": "Babis Pandis 12 Jul, 2024 | 19:07 1.6 Not good at all I am using arvixe since 2017. It always had some problems but usually they fixed it in a day or so. 2014 has been a nightmare. A lot of problems that ...left us with no mails at all. And finally since 24/4 we are 30% of the time with no mails AT ALL and we cannot receive mails from Gmail!!! Support everytime tell me that the problem will be solved and that is escaleted to the admins and that they will inform us when everyting will be ok. After 4 days the ticket automatically closes with no feedback. We are seinding again, the same answer, the ticket closes after 4 days. This is going on for the last 3 months... I ve asked for a refund but they say it is not at their policy. I believe that they are going to close soon... This is not a serious company, they are con artists. We are searchinf for another serioug hosting company. STAY AWAY. Show MoreShow less"
+  },
+  "faqs": [],
+  "plan_comparison": {
+    "Starter Plan Name": "Arvixe Starter Tier",
+    "Promotional Price": "$ 4.00 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "1.9 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

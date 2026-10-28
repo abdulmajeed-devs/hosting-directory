@@ -1,0 +1,109 @@
+{
+  "company_name": "HostArmada",
+  "slug": "hostarmada",
+  "profile": {
+    "overall_rating": "4.9",
+    "review_count": "1,050 reviews",
+    "starting_price": "$ 2.49 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "HostArmada vs Hostinger",
+      "opponents": [
+        "Hostinger"
+      ],
+      "result": "Loss",
+      "declared_winner": "Hostinger",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/hostarmada-vs-hostinger/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "45 days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting Price": "$2.49/month",
+    "Free Site Migration": "Yes",
+    "Storage": "40 GB NVMe SSD (Shared)",
+    "Automated Backups": "Daily",
+    "Bandwidth": "Unmetered",
+    "Free Domain Name": "Yes (on annual plans)",
+    "Page Load Speed": "815ms (GTmetrix)",
+    "24/7 Customer Support": "Yes (Live chat, Email, Phone, Ticket)",
+    "Server Location": "USA, Europe, Asia-Pacific",
+    "Starting price": "$ 2.49 / month"
+  },
+  "faqs": [
+    {
+      "question": "Does Hostinger or HostArmada offer better scalability for growing websites?",
+      "answer": "Hostinger offers a more seamless upgrade path with its comprehensive range of plans, spanning shared hosting, VPS, and cloud hosting, all managed under a single dashboard. Hostinger offers a more seamless upgrade path with its comprehensive range of plans, spanning shared hosting, VPS, and cloud hosting, all managed under a single dashboard.",
+      "source_comparison": "HostArmada vs Hostinger"
+    },
+    {
+      "question": "Which provider is more suitable for developers and advanced users?",
+      "answer": "HostArmada may be more appealing to developers due to its WHM/cPanel setup, full root access on VPS plans, and detailed control over server configurations. HostArmada may be more appealing to developers due to its WHM/cPanel setup, full root access on VPS plans, and detailed control over server configurations.",
+      "source_comparison": "HostArmada vs Hostinger"
+    },
+    {
+      "question": "Is there a difference in uptime reliability between Hostinger and HostArmada?",
+      "answer": "Both providers advertise strong uptime guarantees, but Hostinger has a longer track record and more monitoring transparency, making it the safer option for uptime-critical projects. Both providers advertise strong uptime guarantees, but Hostinger has a longer track record and more monitoring transparency, making it the safer option for uptime-critical projects.",
+      "source_comparison": "HostArmada vs Hostinger"
+    },
+    {
+      "question": "Is Hostinger or HostArmada better for hosting a portfolio or personal blog?",
+      "answer": "Hostinger is often the better pick for personal sites and portfolios because of its low-cost plans, fast loading times, and easy-to-use dashboard, which is great if you’re just getting started. Hostinger is often the better pick for personal sites and portfolios because of its low-cost plans, fast loading times, and easy-to-use dashboard, which is great if you’re just getting started.",
+      "source_comparison": "HostArmada vs Hostinger"
+    },
+    {
+      "question": "Can I host an online store with either Hostinger or HostArmada?",
+      "answer": "Yes, both providers support eCommerce platforms like WooCommerce. However, HostArmada’s inclusion of daily backups and cPanel access may be better suited for users who require tighter control or manage multiple stores. Yes, both providers support eCommerce platforms like WooCommerce. However, HostArmada’s inclusion of daily backups and cPanel access may be better suited for users who require tighter control or manage multiple stores.",
+      "source_comparison": "HostArmada vs Hostinger"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "HostArmada Starter Tier",
+    "Promotional Price": "$ 2.49 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.9 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

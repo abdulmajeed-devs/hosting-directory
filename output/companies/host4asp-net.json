@@ -1,0 +1,81 @@
+{
+  "company_name": "Host4ASP.NET",
+  "slug": "host4asp-net",
+  "profile": {
+    "overall_rating": "3.8",
+    "review_count": "120 reviews",
+    "starting_price": "$ 2.95 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Host4ASP.NET vs GoDaddy",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Loss",
+      "declared_winner": "GoDaddy",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-host4asp-net/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes",
+    "Free SSL Certificate": "Yes (Let's Encrypt / AutoSSL)",
+    "Money Back Guarantee": "30 Days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 2.95 / month",
+    "User Friendly": "2.7",
+    "Support": "2.4",
+    "Features": "2.7",
+    "Reliability": "2.4",
+    "Pricing": "3.1",
+    "Latest positive review": "Paul Davis 30 May, 2018 | 17:05 4.8 Cheap pricing, Good Support! I have used Host4ASP.NET for half a year to host my nopCommerce store site. I am very satisfied with what I've received from them. Their support repre...sentatives are quite friendly and can give me instant response even I contact them very late. Thanks Host4ASP.NET! You guys rock! Show MoreShow less",
+    "Latest negative review": "Reza Nazemi 15 Apr, 2019 | 00:04 1.8 I hate this host I had some audio file and they removed it without telling me and I didn't have backups. I emailed them and this was the respond: \"According to our reg...ulations, the shared hosting can not be used for media or image sharing or storage disk. We found that you uploaded a large number of MP3 to store on the server, which is against the rules.\" I created a ticket and they have answered after 34 hours. The admin colsole was down three time in the last two months. I have paid for three years and will go to find a different one. Show MoreShow less"
+  },
+  "faqs": [],
+  "plan_comparison": {
+    "Starter Plan Name": "Host4ASP.NET Starter Tier",
+    "Promotional Price": "$ 2.95 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "3.8 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

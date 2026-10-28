@@ -1,0 +1,131 @@
+{
+  "company_name": "Google Cloud Platform",
+  "slug": "google-cloud-platform",
+  "profile": {
+    "overall_rating": "4.4",
+    "review_count": "980 reviews",
+    "starting_price": "Pay-as-you-go ($5.00/mo)",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 3,
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "win_rate_percentage": 33.3
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "GoDaddy vs Google Cloud Platform",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Loss",
+      "declared_winner": "GoDaddy",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-google-cloud-platform/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Google Cloud Platform vs Digital Ocean",
+      "opponents": [
+        "DigitalOcean"
+      ],
+      "result": "Win",
+      "declared_winner": "Google Cloud Platform",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/digital-ocean-vs-google-cloud-platform/",
+      "template_type": "spec_grid"
+    },
+    {
+      "comparison_title": "Google Cloud Platform vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-google-cloud-platform/",
+      "template_type": "spec_grid"
+    }
+  ],
+  "specifications": {
+    "Free domain": "No",
+    "Free SSL Certificate": "Yes (manual setup required)",
+    "Money Back Guarantee": "No (free $300 trial credits)",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.99% (SLA varies by service)",
+    "Starting Price": "~$13-20/month (pay-as-you-go, variable)",
+    "Free Site Migration": "No",
+    "Storage": "Configurable (pay-as-you-go, typically 10 GB+)",
+    "Automated Backups": "No (manual configuration required)",
+    "Bandwidth": "Pay-per-GB (egress charges)",
+    "Free Domain Name": "No",
+    "Page Load Speed": "TTFB: 119ms, Fully Loaded: 11.1s",
+    "24/7 Customer Support": "Paid tiers only for technical support",
+    "Server Locations": "42 regions, 127 zones globally",
+    "Starting price": "Pay-as-you-go ($5.00/mo)",
+    "User Friendly": "3.1",
+    "Support": "3.2",
+    "Features": "3.3",
+    "Reliability": "3.4",
+    "Pricing": "3.1",
+    "Latest positive review": "Muhammad Faizan 28 Dec, 2019 | 00:12 4.8 Great Platform I'm already using Google platform for deploy the web, google provide great facility for Professional People who want start new business.",
+    "Latest negative review": "Matthew S 21 Aug, 2020 | 00:08 1.2 Terrible service and cloud provider They sneak in so many extra fees and services, and support are hopeless (literally lied about the hidden fees). They disregard GDPR law and other EU l...aws too, not to mention they're about 10x the cost of some other providers. Show MoreShow less"
+  },
+  "faqs": [
+    {
+      "question": "Can I migrate from GoDaddy to Google Cloud Platform easily?",
+      "answer": "No, migrating from GoDaddy to GCP is complex and requires technical expertise. Unlike migrations between traditional hosting providers that use cPanel’s backup/restore tools, moving to GCP involves manually transferring files via SSH/SFTP, exporting and importing databases, reconfiguring DNS, setting up SSL certificates, and configuring server environments. You’ll likely need a developer or system administrator to handle the migration. GoDaddy to another cPanel host would be much simpler. No, migrating from GoDaddy to GCP is complex and requires technical expertise. Unlike migrations between traditional hosting providers that use cPanel’s backup/restore tools, moving to GCP involves manually transferring files via SSH/SFTP, exporting and importing databases, reconfiguring DNS, setting up SSL certificates, and configuring server environments. You’ll likely need a developer or system administrator to handle the migration. GoDaddy to another cPanel host would be much simpler.",
+      "source_comparison": "GoDaddy vs Google Cloud Platform"
+    },
+    {
+      "question": "Does Google Cloud Platform offer managed WordPress hosting like GoDaddy?",
+      "answer": "No, GCP doesn’t offer managed WordPress hosting in the traditional sense. While you can deploy WordPress on GCP’s Compute Engine, you’re responsible for all server management, updates, security patches, backups, and optimization. No, GCP doesn’t offer managed WordPress hosting in the traditional sense. While you can deploy WordPress on GCP’s Compute Engine, you’re responsible for all server management, updates, security patches, backups, and optimization.",
+      "source_comparison": "GoDaddy vs Google Cloud Platform"
+    },
+    {
+      "question": "Which platform is better for e-commerce websites?",
+      "answer": "GoDaddy is better for small to medium e-commerce stores using WooCommerce or simple shopping carts, offering easy setup, automatic SSL, PCI-compliant hosting, and included email. Google Cloud Platform is better for large-scale e-commerce operations requiring custom development, handling millions of transactions, or needing advanced features like global load balancing, auto-scaling during traffic spikes, and complex inventory systems. GoDaddy is better for small to medium e-commerce stores using WooCommerce or simple shopping carts, offering easy setup, automatic SSL, PCI-compliant hosting, and included email. Google Cloud Platform is better for large-scale e-commerce operations requiring custom development, handling millions of transactions, or needing advanced features like global load balancing, auto-scaling during traffic spikes, and complex inventory systems.",
+      "source_comparison": "GoDaddy vs Google Cloud Platform"
+    },
+    {
+      "question": "Can I host multiple websites on both platforms?",
+      "answer": "Yes, but the approach differs significantly. GoDaddy’s plans allow 1-200 websites, depending on your tier, all managed through cPanel with addon domains, simple and straightforward. Google Cloud Platform technically supports unlimited websites based on your server resources, but each site requires manual configuration of virtual hosts, DNS settings, and SSL certificates. Yes, but the approach differs significantly. GoDaddy’s plans allow 1-200 websites, depending on your tier, all managed through cPanel with addon domains, simple and straightforward. Google Cloud Platform technically supports unlimited websites based on your server resources, but each site requires manual configuration of virtual hosts, DNS settings, and SSL certificates.",
+      "source_comparison": "GoDaddy vs Google Cloud Platform"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Google Cloud Platform Starter Tier",
+    "Promotional Price": "Pay-as-you-go ($5.00/mo)",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.4 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

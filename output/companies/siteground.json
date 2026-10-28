@@ -1,0 +1,194 @@
+{
+  "company_name": "SiteGround",
+  "slug": "siteground",
+  "profile": {
+    "overall_rating": "4.7",
+    "review_count": "3,980 reviews",
+    "starting_price": "$ 2.99 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 4,
+    "wins": 0,
+    "losses": 3,
+    "ties": 1,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "GoDaddy vs. SiteGround - Discover the Best Choice",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Tie / Inconclusive",
+      "declared_winner": "Inconclusive / Neutral",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/godaddy-vs-siteground/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "SiteGround vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-siteground/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hosting.com vs Siteground",
+      "opponents": [
+        "A2 Hosting"
+      ],
+      "result": "Loss",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-siteground/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Cloudways vs SiteGround",
+      "opponents": [
+        "Cloudways"
+      ],
+      "result": "Loss",
+      "declared_winner": "Cloudways",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/cloudways-vs-siteground/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "30 days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 support; phone support; knowledgebase, live chat, email, ticketing.",
+    "Uptime Guarantee": "99.9%",
+    "Free Site Migration": "Yes",
+    "Starting Price": "$2.99/month",
+    "Storage": "Up to 40 GB on shared hosting, up to 160GB on cloud hosting",
+    "Bandwidth": "Unmetered",
+    "Free Domain Name": "Yes",
+    "Free One-Click WordPress Installation": "Yes",
+    "Average Page Load Speed": "1.25 s",
+    "Server location": "United Kingdom, Germany, Netherlands, Singapore, USA, Spain, Australia",
+    "DDoS Protection": "Yes",
+    "Daily Backups": "Yes",
+    "Automated Backups": "Daily (Included on all plans)",
+    "Page Load Speed": "2.6s",
+    "24/7 Customer Support": "Yes",
+    "Server Location": "US, UK, Spain, Germany, Australia, Singapore",
+    "Starting price": "$ 2.99 / month"
+  },
+  "faqs": [
+    {
+      "question": "1. What Is the Difference Between GoDaddy and SiteGround?",
+      "answer": "GoDaddy offers good functionality and convenience for hosting, domain signup, and website development. However, SiteGround offers superior customer support, WordPress integration, and good value for money compared to GoDaddy. GoDaddy offers good functionality and convenience for hosting, domain signup, and website development. However, SiteGround offers superior customer support, WordPress integration, and good value for money compared to GoDaddy.",
+      "source_comparison": "GoDaddy vs. SiteGround - Discover the Best Choice"
+    },
+    {
+      "question": "2. Is GoDaddy or SiteGround Better for WordPress?",
+      "answer": "SiteGround is better for WordPress. It offers a managed WordPress hosting solution with pre-installed WordPress, a WordPress staging environment, and other features only for WordPress users. SiteGround is better for WordPress. It offers a managed WordPress hosting solution with pre-installed WordPress, a WordPress staging environment, and other features only for WordPress users.",
+      "source_comparison": "GoDaddy vs. SiteGround - Discover the Best Choice"
+    },
+    {
+      "question": "Are both Bluehost and SiteGround suitable for WordPress?",
+      "answer": "Yes, both providers are good for WordPress and are recommended by the platform itself. Both offer WordPress hosting plans and many WordPress-specific plugins and features. Yes, both providers are good for WordPress and are recommended by the platform itself. Both offer WordPress hosting plans and many WordPress-specific plugins and features.",
+      "source_comparison": "SiteGround vs Bluehost"
+    },
+    {
+      "question": "Which is faster: SiteGround or Bluehost?",
+      "answer": "We concluded that SiteGround is the faster provider of the two during our speed tests by a long shot. We concluded that SiteGround is the faster provider of the two during our speed tests by a long shot.",
+      "source_comparison": "SiteGround vs Bluehost"
+    },
+    {
+      "question": "Can I choose my data center with SiteGround?",
+      "answer": "Yes, you can choose which data center you want to use for your website with SiteGround. Yes, you can choose which data center you want to use for your website with SiteGround.",
+      "source_comparison": "SiteGround vs Bluehost"
+    },
+    {
+      "question": "Do both providers have affiliate programs?",
+      "answer": "Yes, both SiteGround and Bluehost have affiliate programs where you can earn money by receiving sales commissions. Yes, both SiteGround and Bluehost have affiliate programs where you can earn money by receiving sales commissions.",
+      "source_comparison": "SiteGround vs Bluehost"
+    },
+    {
+      "question": "Is SiteGround worth the money?",
+      "answer": "SiteGround is worth the money for those prioritizing reliability, performance, and customer support. With an uptime guarantee of 99.99%, global server locations for fast website loading, and exceptional 24/7 support via multiple channels, it stands out in the hosting industry. SiteGround is worth the money for those prioritizing reliability, performance, and customer support. With an uptime guarantee of 99.99%, global server locations for fast website loading, and exceptional 24/7 support via multiple channels, it stands out in the hosting industry.",
+      "source_comparison": "SiteGround vs Bluehost"
+    },
+    {
+      "question": "Which hosting provider offers the best value for money, Hosting.com or SiteGround?",
+      "answer": "Hosting.com offers a better value due to its lower introductory pricing and flexible hosting plans. Hosting.com offers a better value due to its lower introductory pricing and flexible hosting plans.",
+      "source_comparison": "Hosting.com vs Siteground"
+    },
+    {
+      "question": "Can I change the server location after signing up with Hosting.com or SiteGround?",
+      "answer": "SiteGround offers more flexibility by allowing users to change data centers at any time, whereas Hosting.com requires a full migration process. SiteGround offers more flexibility by allowing users to change data centers at any time, whereas Hosting.com requires a full migration process.",
+      "source_comparison": "Hosting.com vs Siteground"
+    },
+    {
+      "question": "Does SiteGround offer free website migrations like Hosting.com?",
+      "answer": "Yes, SiteGround offers free migrations via a plugin or expert assistance, while Hosting.com offers free site migration with its plans. Yes, SiteGround offers free migrations via a plugin or expert assistance, while Hosting.com offers free site migration with its plans.",
+      "source_comparison": "Hosting.com vs Siteground"
+    },
+    {
+      "question": "How do the performance metrics compare between Hosting.com and SiteGround?",
+      "answer": "Hosting.com outperforms SiteGround in terms of page load time and responsiveness, while SiteGround excels in other metrics like Total Blocking Time (TBT). Hosting.com outperforms SiteGround in terms of page load time and responsiveness, while SiteGround excels in other metrics like Total Blocking Time (TBT).",
+      "source_comparison": "Hosting.com vs Siteground"
+    },
+    {
+      "question": "Is SiteGround better for developers compared to Hosting.com?",
+      "answer": "Yes, SiteGround offers a broader range of developer tools like Git integration, cron jobs, and more, making it more suitable for developers than Hosting.com. Yes, SiteGround offers a broader range of developer tools like Git integration, cron jobs, and more, making it more suitable for developers than Hosting.com.",
+      "source_comparison": "Hosting.com vs Siteground"
+    },
+    {
+      "question": "Can I pay monthly for my SiteGround subscription?",
+      "answer": "Yes, all plans on SiteGround’s website can be paid for on a monthly basis. You can choose the right plan for you or your business by visiting the company’s pricing page for more information. Yes, all plans on SiteGround’s website can be paid for on a monthly basis. You can choose the right plan for you or your business by visiting the company’s pricing page for more information.",
+      "source_comparison": "Cloudways vs SiteGround"
+    },
+    {
+      "question": "Does SiteGround use cPanel?",
+      "answer": "SiteGround does not use cPanel anymore as a central interface for management. Instead, it uses a custom panel, known as Site Tools, that is considered a more user-friendly way to navigate the system. SiteGround does not use cPanel anymore as a central interface for management. Instead, it uses a custom panel, known as Site Tools, that is considered a more user-friendly way to navigate the system.",
+      "source_comparison": "Cloudways vs SiteGround"
+    },
+    {
+      "question": "Is Cloudways faster than SiteGround?",
+      "answer": "Generally, Cloudways, with its managed cloud hosting options from top providers like DigitalOcean and AWS, might offer faster server speeds and more scalability. However, SiteGround also delivers excellent performance, particularly for shared and WordPress hosting, with optimizations like built-in caching and CDN integration. Generally, Cloudways, with its managed cloud hosting options from top providers like DigitalOcean and AWS, might offer faster server speeds and more scalability. However, SiteGround also delivers excellent performance, particularly for shared and WordPress hosting, with optimizations like built-in caching and CDN integration.",
+      "source_comparison": "Cloudways vs SiteGround"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "StartUp Plan",
+    "Promotional Price": "$2.99 / month",
+    "Standard Renewal Price": "$17.99 / month",
+    "Websites Allowed": "1 Website",
+    "Storage Space": "10 GB Web Space",
+    "Bandwidth / Traffic": "Unmetered (~10,000 visits/month)",
+    "Free Domain": "No (Domain registered separately)",
+    "Free SSL Certificate": "Free Standard & Wildcard SSL",
+    "Money-Back Guarantee": "30 Days Money-Back Guarantee",
+    "Email Accounts": "Free Unlimited Custom Email Inboxes"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.99% High Availability SLA",
+    "Web Server Software": "Nginx Direct Delivery Architecture",
+    "Caching Technology": "SuperCacher (Dynamic Cache + Memcached)",
+    "Global Server Locations": "11 Global Google Cloud Powered Locations (US, UK, Germany, Spain, Netherlands, Australia, Singapore)",
+    "CDN Integration": "Free Proprietary SiteGround CDN",
+    "Storage Technology": "Enterprise Google Cloud High-IOPS SSD",
+    "Automated Backups": "Free Automatic Daily Backups (30-day retention)",
+    "PHP & Protocol": "Ultra-Fast PHP 8.2 with Custom Security Patches"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, Instant 24/7 Live Chat (<1 min average wait)",
+    "Phone Support": "Yes, 24/7 Priority Phone Support",
+    "Ticket / Email Support": "15-Minute Guaranteed Ticket Response",
+    "Free Website Migration": "Free Automatic WordPress Migrator Plugin",
+    "Knowledge Base": "Top-Rated Technical Knowledgebase & Tutorials",
+    "HostAdvice Support Rating": "4.9 / 5.0",
+    "Ease of Use Score": "4.8 / 5.0 (Custom Site Tools Interface)"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "company_name": "Hetzner",
+  "slug": "hetzner",
+  "profile": {
+    "overall_rating": "4.7",
+    "review_count": "1,340 reviews",
+    "starting_price": "€ 4.50 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 1,
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Hetzner vs OVH",
+      "opponents": [
+        "OVHcloud"
+      ],
+      "result": "Loss",
+      "declared_winner": "OVHcloud",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/hetzner-vs-ovhcloud/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (Let’s Encrypt + Symantec)",
+    "Money Back Guarantee": "No",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.90%",
+    "Starting Price": "$2.00/month (Web Hosting)",
+    "Free Site Migration": "No",
+    "Storage": "10 GB – 300 GB (web hosting)",
+    "Automated Backups": "Yes (14-day retention)",
+    "Bandwidth": "Unlimited",
+    "Free Domain Name": "Yes (1st year)",
+    "Page Load Speed": "5.1s fully loaded (68% GTmetrix score)",
+    "24/7 Customer Support": "No (Mon-Fri, 8 AM-6 PM CEST for cloud)",
+    "Server Locations": "6 locations (Germany, Finland, USA, Singapore)",
+    "Starting price": "€ 4.50 / month"
+  },
+  "faqs": [
+    {
+      "question": "Can I upgrade from Hetzner to OVHcloud without downtime?",
+      "answer": "Yes, but you’ll need to manually migrate. Use OVHcloud’s free automated migration tool or perform a manual transfer by copying files via FTP and exporting/importing databases. Plan the DNS switchover during low-traffic periods. OVHcloud’s migration tool handles most of the process automatically, minimizing downtime to the DNS propagation period (typically 24-48 hours, though often much faster). Yes, but you’ll need to manually migrate. Use OVHcloud’s free automated migration tool or perform a manual transfer by copying files via FTP and exporting/importing databases. Plan the DNS switchover during low-traffic periods. OVHcloud’s migration tool handles most of the process automatically, minimizing downtime to the DNS propagation period (typically 24-48 hours, though often much faster).",
+      "source_comparison": "Hetzner vs OVH"
+    },
+    {
+      "question": "Do Hetzner and OVHcloud support WordPress multisite installations?",
+      "answer": "Yes, both providers fully support WordPress multisite. Hetzner allows unlimited sites on higher-tier plans with SSH access for advanced configurations. OVHcloud’s multi-site feature on Personal plans and above makes it even easier, with their 1-click installer supporting multisite setups. Both provide the necessary PHP configurations, database access, and domain mapping capabilities required for WordPress multisite networks. Yes, both providers fully support WordPress multisite. Hetzner allows unlimited sites on higher-tier plans with SSH access for advanced configurations. OVHcloud’s multi-site feature on Personal plans and above makes it even easier, with their 1-click installer supporting multisite setups. Both provide the necessary PHP configurations, database access, and domain mapping capabilities required for WordPress multisite networks.",
+      "source_comparison": "Hetzner vs OVH"
+    },
+    {
+      "question": "Which provider offers better value for high-traffic e-commerce sites?",
+      "answer": "OVHcloud is better for high-traffic e-commerce despite higher costs. Their superior performance (1.1s load times vs Hetzner’s 5.1s), 24/7 support, PCI-DSS compliance for payment processing, and built-in CDN handle traffic spikes better. Hetzner works for budget e-commerce, but OVHcloud’s reliability, security certifications, and faster checkout experiences translate to higher conversion rates that justify the investment. OVHcloud is better for high-traffic e-commerce despite higher costs. Their superior performance (1.1s load times vs Hetzner’s 5.1s), 24/7 support, PCI-DSS compliance for payment processing, and built-in CDN handle traffic spikes better. Hetzner works for budget e-commerce, but OVHcloud’s reliability, security certifications, and faster checkout experiences translate to higher conversion rates that justify the investment.",
+      "source_comparison": "Hetzner vs OVH"
+    },
+    {
+      "question": "Can I host databases separately from my web server on these platforms?",
+      "answer": "Yes, both support separate database hosting. Hetzner allows you to provision dedicated cloud servers or use their managed database options, connecting via private networks for security. OVHcloud offers comprehensive managed database services (MySQL, PostgreSQL, MongoDB, Redis) that run independently from web hosting, with dedicated resources, automated backups, and connection via their vRack private network for optimal security and performance. Yes, both support separate database hosting. Hetzner allows you to provision dedicated cloud servers or use their managed database options, connecting via private networks for security. OVHcloud offers comprehensive managed database services (MySQL, PostgreSQL, MongoDB, Redis) that run independently from web hosting, with dedicated resources, automated backups, and connection via their vRack private network for optimal security and performance.",
+      "source_comparison": "Hetzner vs OVH"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Hetzner Starter Tier",
+    "Promotional Price": "€ 4.50 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.7 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}

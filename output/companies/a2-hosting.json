@@ -1,0 +1,142 @@
+{
+  "company_name": "A2 Hosting",
+  "slug": "a2-hosting",
+  "profile": {
+    "overall_rating": "4.6",
+    "review_count": "2,410 reviews",
+    "starting_price": "$ 1.99 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 6,
+    "wins": 6,
+    "losses": 0,
+    "ties": 0,
+    "win_rate_percentage": 100.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Hosting.com vs Digital Ocean",
+      "opponents": [
+        "DigitalOcean"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-digital-ocean/",
+      "template_type": "spec_grid"
+    },
+    {
+      "comparison_title": "Hosting.com vs Arvixe",
+      "opponents": [
+        "Arvixe"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-arvixe/",
+      "template_type": "spec_grid"
+    },
+    {
+      "comparison_title": "Hosting.com vs Siteground",
+      "opponents": [
+        "SiteGround"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-siteground/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hosting.com vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-blue-host/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hosting.com vs GoDaddy",
+      "opponents": [
+        "GoDaddy"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-godaddy/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hosting.com vs IONOS",
+      "opponents": [
+        "IONOS"
+      ],
+      "result": "Win",
+      "declared_winner": "A2 Hosting",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/a2-hosting-vs-ionos/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "No",
+    "Free SSL Certificate": "Yes",
+    "Money Back Guarantee": "30 days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Starting price": "$ 1.99 / month",
+    "Coupons": "Coupons19",
+    "User Friendly": "4.6",
+    "Support": "4.6",
+    "Features": "4.6",
+    "Reliability": "4.6",
+    "Pricing": "4.6",
+    "Latest positive review": "Phillip Krueger 23 Sep, 2026 | 03:09 5.0 online support Had an issue with plug in didnt catch reps name but was awesome and when you he could not support the issue had teammate jump in and just wow her way ...to look into the problem her patience support just all around genually a good being and representive for hosting.com Charisa was beutiful don't ever change! like I said in our chat... hand over heart thank you anyone looking for a real pro your gonna want Charisa on your team!! Thanks Charisa Show MoreShow less",
+    "Latest negative review": "Juan Pablo Loaiza 04 Sep, 2026 | 15:09 1.4 TERRIBLE SERVICE NO FUNCIONA, EL PEOR SERVICIO QIUE HE CONTRATADO EN TODOS MIS AÑOS DE EXPERIENCIA, NO COTNRATEN, ES LO PEOR QUE PUEDEN HACER",
+    "Starting Price": "$1.99/month",
+    "Free Site Migration": "Yes",
+    "Storage": "Up to 640GB",
+    "Automated Backups": "Manual",
+    "Bandwidth": "Unmetered",
+    "Free Domain Name": "Yes (1st year)",
+    "Page Load Speed": "2.1s",
+    "24/7 Customer Support": "Yes",
+    "Server Location": "20+ global choices (user selectable)",
+    "Server Locations": "20+ global choices (user selectable)"
+  },
+  "faqs": [],
+  "plan_comparison": {
+    "Starter Plan Name": "Startup Plan",
+    "Promotional Price": "$1.99 / month",
+    "Standard Renewal Price": "$11.99 / month",
+    "Websites Allowed": "1 Website",
+    "Storage Space": "100 GB Ultra-Fast SSD",
+    "Bandwidth / Traffic": "Unlimited Data Transfer",
+    "Free Domain": "No (Add-on domain available)",
+    "Free SSL Certificate": "Free AutoSSL Certificate Included",
+    "Money-Back Guarantee": "Anytime Money-Back Guarantee (Pro-rated)",
+    "Email Accounts": "Free Unlimited Email Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime Commitment",
+    "Web Server Software": "LiteSpeed Web Server (Turbo Servers)",
+    "Caching Technology": "A2 Optimized (Memcached, Turbo Cache, OPcache)",
+    "Global Server Locations": "4 Global Centers (Michigan, Arizona, Amsterdam, Singapore)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Turbo NVMe High-Speed Drives",
+    "Automated Backups": "Server Rewind Automated Backup System",
+    "PHP & Protocol": "Multi-PHP Selector (PHP 7.4 - 8.3 with HTTP/3)"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Guru Crew Live Chat",
+    "Phone Support": "Yes, 24/7 Phone Support Across 20+ Countries",
+    "Ticket / Email Support": "24/7 Ticket System with Senior Admins",
+    "Free Website Migration": "Free Expert Site Migration by Migration Team",
+    "Knowledge Base": "Extensive Technical Knowledgebase",
+    "HostAdvice Support Rating": "4.7 / 5.0",
+    "Ease of Use Score": "4.6 / 5.0 (Customized cPanel)"
+  }
+}

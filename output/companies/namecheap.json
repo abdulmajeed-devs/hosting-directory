@@ -1,0 +1,161 @@
+{
+  "company_name": "Namecheap",
+  "slug": "namecheap",
+  "profile": {
+    "overall_rating": "4.3",
+    "review_count": "2,840 reviews",
+    "starting_price": "$ 1.98 / month",
+    "deals_promos": [],
+    "key_features": []
+  },
+  "stats": {
+    "total_comparisons": 2,
+    "wins": 0,
+    "losses": 2,
+    "ties": 0,
+    "win_rate_percentage": 0.0
+  },
+  "head_to_head": [
+    {
+      "comparison_title": "Namecheap vs Bluehost",
+      "opponents": [
+        "Bluehost"
+      ],
+      "result": "Loss",
+      "declared_winner": "Bluehost",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/blue-host-vs-namecheap/",
+      "template_type": "editorial"
+    },
+    {
+      "comparison_title": "Hostinger vs Namecheap",
+      "opponents": [
+        "Hostinger"
+      ],
+      "result": "Loss",
+      "declared_winner": "Hostinger",
+      "comparison_url": "https://hostadvice.com/tools/web-hosting-comparison/hostinger-vs-namecheap/",
+      "template_type": "editorial"
+    }
+  ],
+  "specifications": {
+    "Free domain": "Yes (1st Year)",
+    "Free SSL Certificate": "Yes (PositiveSSL, 1st year)",
+    "Money Back Guarantee": "30 days",
+    "Control Panel": "cPanel / Custom Dashboard",
+    "CMS Support": "WordPress, Joomla, Drupal",
+    "PHP Support": "PHP 8.1, 8.2, 8.3",
+    "Database Support": "MySQL / MariaDB",
+    "Customer Support": "24/7 Live Chat & Tickets",
+    "Uptime Guarantee": "99.9%",
+    "Web Hosting Entry (promo)": "$2.28/mo (Stellar, yearly)",
+    "Web Hosting Mid-Tier": "$2.98/mo (Stellar Plus, yearly)",
+    "Managed WordPress Entry": "$9.88/mo (EasyWP Starter, monthly)",
+    "VPS Entry": "$3.88/mo (Spark: 1 CPU, 1GB, 20GB)",
+    "Dedicated Servers": "From ~$37.74/mo (promo)",
+    "Money-Back Guarantee": "30 days",
+    "Free Domain": "Not standard on shared",
+    "GTmetrix Score (tested)": "100% (Grade A)",
+    "LCP": "548ms",
+    "TTFB": "339ms",
+    "Total Blocking Time": "45ms",
+    "Fully Loaded Time": "809ms",
+    "30-Day Uptime (monitored)": "Not monitored over 30 days",
+    "Phone Support": "No",
+    "WordPress.org Recommended": "No",
+    "VPS RAM Architecture": "Standard SSD RAID 10",
+    "VPS Network (tested)": "Not benchmarked",
+    "One-Click WordPress Admin": "No",
+    "Free WHOIS Privacy": "Yes, all eligible domains",
+    "WAF (shared hosting)": "ModSecurity, all plans",
+    "cPanel": "Yes, shared hosting",
+    "Server Locations": "4 (US, UK, NL, SG)",
+    "VDS Tier": "No",
+    "Starting Price": "$1.98/month (shared hosting)",
+    "Free Site Migration": "Yes (manual with support)",
+    "Storage": "20 GB – 50 GB SSD (unmetered on Plus)",
+    "Automated Backups": "Daily (Stellar Plus & Business only)",
+    "Bandwidth": "Unmetered",
+    "Free Domain Name": "No (paid separately)",
+    "Page Load Speed (GTmetrix)": "809ms fully loaded",
+    "24/7 Customer Support": "Live chat + Email + Tickets",
+    "Starting price": "$ 1.98 / month"
+  },
+  "faqs": [
+    {
+      "question": "Which platform performs better in GTmetrix testing?",
+      "answer": "Namecheap’s Stellar shared hosting returned a 100% GTmetrix score with a 339ms TTFB and 548ms LCP on a fully built real-content WordPress site. Bluehost’s Business plan returned 91% with a 434ms TTFB and 1.1s LCP on a comparable setup. Bluehost has 30-day uptime monitoring data showing 99.955% availability and one 19.5-minute incident; equivalent 30-day monitoring data was not available for Namecheap in this comparison. Namecheap’s Stellar shared hosting returned a 100% GTmetrix score with a 339ms TTFB and 548ms LCP on a fully built real-content WordPress site. Bluehost’s Business plan returned 91% with a 434ms TTFB and 1.1s LCP on a comparable setup. Bluehost has 30-day uptime monitoring data showing 99.955% availability and one 19.5-minute incident; equivalent 30-day monitoring data was not available for Namecheap in this comparison.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Does Bluehost have phone support that Namecheap doesn't?",
+      "answer": "Yes. Bluehost provides phone support through topic-based lines during US business hours. Namecheap does not offer phone support at any plan level. Both platforms use an AI assistant as the first chat contact, with live human escalation available. Yes. Bluehost provides phone support through topic-based lines during US business hours. Namecheap does not offer phone support at any plan level. Both platforms use an AI assistant as the first chat contact, with live human escalation available.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Which is cheaper for VPS hosting?",
+      "answer": "Namecheap by a significant margin. The Quasar plan delivers 4 CPU cores, 6GB RAM, and 120GB SSD at $12.88/month on a yearly term. Bluehost’s comparable VPS with 4 cores costs approximately $44.99/month and comes with 4GB RAM rather than 6GB. Bluehost’s VPS uses DDR5 RAM and produced 5.5 Gbps download speeds in benchmark testing; Namecheap’s VPS was not benchmarked in the available data. Namecheap by a significant margin. The Quasar plan delivers 4 CPU cores, 6GB RAM, and 120GB SSD at $12.88/month on a yearly term. Bluehost’s comparable VPS with 4 cores costs approximately $44.99/month and comes with 4GB RAM rather than 6GB. Bluehost’s VPS uses DDR5 RAM and produced 5.5 Gbps download speeds in benchmark testing; Namecheap’s VPS was not benchmarked in the available data.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Does Namecheap include free WHOIS privacy that Bluehost charges for?",
+      "answer": "Yes. Namecheap includes WHOIS domain privacy at no annual cost on all eligible domains. Bluehost’s Domain Privacy is pre-selected as a paid add-on during the WordPress signup flow; it renews at an annual fee and goes through to purchase if not unchecked before payment. Yes. Namecheap includes WHOIS domain privacy at no annual cost on all eligible domains. Bluehost’s Domain Privacy is pre-selected as a paid add-on during the WordPress signup flow; it renews at an annual fee and goes through to purchase if not unchecked before payment.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Does Bluehost have WordPress.org's endorsement that Namecheap doesn't?",
+      "answer": "Yes, since 2005. WordPress.org lists Bluehost on its recommended hosts page, an endorsement that now spans more than 20 years. Namecheap does not appear on the WordPress.org recommended hosts list. For buyers who treat official WordPress project endorsement as a qualifying criterion, this distinction applies only to Bluehost. Yes, since 2005. WordPress.org lists Bluehost on its recommended hosts page, an endorsement that now spans more than 20 years. Namecheap does not appear on the WordPress.org recommended hosts list. For buyers who treat official WordPress project endorsement as a qualifying criterion, this distinction applies only to Bluehost.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Which has better global server coverage?",
+      "answer": "Bluehost, with 10 web hosting data centers that include Sydney, Mumbai, Sao Paulo, and Toronto. Namecheap’s four origin locations (Phoenix, Farnborough, Amsterdam, Singapore) cover the US, UK, continental Europe, and Asia-Pacific but have no presence in South America, South Asia, Oceania, or Canada. Namecheap’s Supersonic CDN distributes cached static assets globally but does not replace origin-level coverage for dynamic WordPress requests. Bluehost, with 10 web hosting data centers that include Sydney, Mumbai, Sao Paulo, and Toronto. Namecheap’s four origin locations (Phoenix, Farnborough, Amsterdam, Singapore) cover the US, UK, continental Europe, and Asia-Pacific but have no presence in South America, South Asia, Oceania, or Canada. Namecheap’s Supersonic CDN distributes cached static assets globally but does not replace origin-level coverage for dynamic WordPress requests.",
+      "source_comparison": "Namecheap vs Bluehost"
+    },
+    {
+      "question": "Is Hostinger better than Namecheap?",
+      "answer": "From my experience testing both, Hostinger is the better choice overall. It offers faster speeds, more built-in features, stronger security, and a smoother dashboard. Namecheap is cheaper for short-term plans, but Hostinger gives you far better long-term value. From my experience testing both, Hostinger is the better choice overall. It offers faster speeds, more built-in features, stronger security, and a smoother dashboard. Namecheap is cheaper for short-term plans, but Hostinger gives you far better long-term value.",
+      "source_comparison": "Hostinger vs Namecheap"
+    },
+    {
+      "question": "What are the disadvantages of Namecheap?",
+      "answer": "With Namecheap, the downside is that backups aren’t included on the base Stellar plan. You only get them if you upgrade. Performance is solid but not as fast as Hostinger, and some advanced security features require paid add-ons. With Namecheap, the downside is that backups aren’t included on the base Stellar plan. You only get them if you upgrade. Performance is solid but not as fast as Hostinger, and some advanced security features require paid add-ons.",
+      "source_comparison": "Hostinger vs Namecheap"
+    },
+    {
+      "question": "Can I use Namecheap domain on Hostinger?",
+      "answer": "Yes, absolutely. You can register your domain with Namecheap and then point it to Hostinger’s servers by updating the DNS settings. Many users buy domains on Namecheap and host websites on Hostinger without any issues. Yes, absolutely. You can register your domain with Namecheap and then point it to Hostinger’s servers by updating the DNS settings. Many users buy domains on Namecheap and host websites on Hostinger without any issues.",
+      "source_comparison": "Hostinger vs Namecheap"
+    }
+  ],
+  "plan_comparison": {
+    "Starter Plan Name": "Namecheap Starter Tier",
+    "Promotional Price": "$ 1.98 / month",
+    "Standard Renewal Price": "$7.99 / month",
+    "Websites Allowed": "1 Website (Multi-site on higher tiers)",
+    "Storage Space": "20 GB High-Speed SSD Storage",
+    "Bandwidth / Traffic": "Unmetered Bandwidth",
+    "Free Domain": "Yes (Included for 1st Year on annual terms)",
+    "Free SSL Certificate": "Free AutoSSL Certificate (Let's Encrypt)",
+    "Money-Back Guarantee": "30 Days Full Money-Back Guarantee",
+    "Email Accounts": "Free Professional Webmail Accounts"
+  },
+  "performance_comparison": {
+    "Uptime Guarantee / SLA": "99.9% Uptime SLA Commitment",
+    "Web Server Software": "Apache / Nginx Optimized Web Stack",
+    "Caching Technology": "Server-Level Cache & OPcache Enabled",
+    "Global Server Locations": "Tier-3 Enterprise Data Centers (US, Europe, Asia)",
+    "CDN Integration": "Free Cloudflare CDN Integration",
+    "Storage Technology": "Solid State Storage (SSD)",
+    "Automated Backups": "Weekly / Daily Automated System Backups",
+    "PHP & Protocol": "PHP 8.1, 8.2, 8.3 with HTTP/2 Support"
+  },
+  "support_comparison": {
+    "24/7 Live Chat": "Yes, 24/7/365 Live Chat Support",
+    "Phone Support": "Yes, Phone Support during Business Hours / 24/7",
+    "Ticket / Email Support": "24/7 Helpdesk & Ticket Tracking System",
+    "Free Website Migration": "Free Website Migration Assistance",
+    "Knowledge Base": "Step-by-Step Guides & Knowledgebase",
+    "HostAdvice Support Rating": "4.3 / 5.0",
+    "Ease of Use Score": "4.5 / 5.0 (cPanel / Custom User Dashboard)"
+  }
+}
