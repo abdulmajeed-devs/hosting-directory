@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CompareAdvice - Admin Management Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Sidebar Navigation (Clean Dark Slate with White Headings & Blue Hover)
+       ========================================================================= -->
+  <aside class="admin-sidebar">
+    <div class="sidebar-header">
+      <div class="brand-link-wrap" onclick="switchTab('dashboard')">
+        <span class="brand-badge">HOSTING</span>
+        <span class="brand-title">CompareAdvice</span>
+      </div>
+    </div>
+
+    <div class="sidebar-scroll">
+      <div>
+        <div class="nav-group-label">Overview</div>
+        <ul class="nav-list">
+          <li>
+            <button class="nav-item-btn active" data-tab="dashboard">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+                </svg>
+                <span>Dashboard</span>
+              </div>
+            </button>
+          </li>
+          <li>
+            <button class="nav-item-btn" data-tab="providers">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                </svg>
+                <span>Providers Catalog</span>
+              </div>
+              <span class="pill-count" id="sidebarProviderCount">55</span>
+            </button>
+          </li>
+          <li>
+            <button class="nav-item-btn" data-tab="matrix">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+                <span>Comparison Matrix</span>
+              </div>
+              <span class="pill-count">2,970</span>
+            </button>
+          </li>
+          <li>
+            <button class="nav-item-btn" data-tab="moderation">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>Partner Moderation</span>
+              </div>
+              <span class="pill-count alert" id="modQueueCount">3</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="nav-group-label">Engine &amp; Settings</div>
+        <ul class="nav-list">
+          <li>
+            <button class="nav-item-btn" data-tab="monetization">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>Affiliate &amp; UTM Hub</span>
+              </div>
+            </button>
+          </li>
+          <li>
+            <button class="nav-item-btn" data-tab="generator">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                </svg>
+                <span>Rebuild Engine</span>
+              </div>
+            </button>
+          </li>
+          <li>
+            <button class="nav-item-btn" data-tab="settings">
+              <div class="nav-item-left">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span>Site Settings</span>
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="../business_panel/index.html" target="_blank" class="btn-panel-link">
+        <span style="display: flex; align-items: center; gap: 6px;">
+          <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+          </svg>
+          Partner Central
+        </span>
+        <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       Main Content Area
+       ========================================================================= -->
+  <main class="main-content">
+
+    <!-- Top Sticky Header -->
+    <header class="top-header">
+      <div class="header-left">
+        <div class="header-title-wrap">
+          <h1 id="pageTitle">CompareAdvice Platform Overview</h1>
+          <p id="pageSubtitle">55 web hosting providers &bull; 2,970 pairwise comparison pages</p>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="search-pill-box">
+          <svg class="search-icon-left" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          <input type="text" id="globalSearchInput" placeholder="Quick find provider or comparison...">
+          <span class="search-kbd-shortcut">Ctrl+K</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button type="button" class="btn btn-primary btn-sm" onclick="openAddProviderModal()">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+          </svg>
+          <span>Add Provider</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary btn-sm" onclick="exportDataJSON()">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+          </svg>
+          <span>Export JSON</span>
+        </button>
+
+        <div class="admin-user-pill">
+          <div class="admin-avatar-initials">CA</div>
+          <div class="admin-user-text">
+            <span class="admin-user-name">CompareAdvice</span>
+            <span class="admin-user-sub">
+              <span class="status-dot-active"></span>
+              Admin Live
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content (Optimized for First-View Visibility) -->
+    <div class="page-container">
+
+      <!-- ===================================================================
+           TAB 1: EXECUTIVE DASHBOARD (Everything Clean in First View)
+           =================================================================== -->
+      <section class="tab-pane active" id="tab-dashboard">
+        <!-- 4 Top KPI Cards -->
+        <div class="kpi-grid-4">
+          <div class="stat-card">
+            <div class="stat-card-top">
+              <span class="stat-card-title">Listed Providers</span>
+              <div class="stat-icon-wrap">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="stat-card-value" id="kpiTotalProviders">55</div>
+            <div class="stat-card-meta">
+              <span class="trend-badge">Active</span>
+              <span>100% indexed in matrix</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-top">
+              <span class="stat-card-title">Comparisons</span>
+              <div class="stat-icon-wrap">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="stat-card-value">2,970</div>
+            <div class="stat-card-meta">
+              <span class="trend-badge">Ready</span>
+              <span>Pairwise static pages</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-top">
+              <span class="stat-card-title">Outbound Clicks</span>
+              <div class="stat-icon-wrap">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="stat-card-value">184.2K</div>
+            <div class="stat-card-meta">
+              <span class="trend-badge">+18.4%</span>
+              <span>Past 30 days</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-card-top">
+              <span class="stat-card-title">Est. Revenue</span>
+              <div class="stat-icon-wrap">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="stat-card-value">$36,480</div>
+            <div class="stat-card-meta">
+              <span class="trend-badge">+22.1%</span>
+              <span>Average EPC $1.42</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Column Section: Top Matchups & Moderation Queue (Fits in 1st View) -->
+        <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px;">
+          <!-- Top Matchups Table -->
+          <div class="content-panel" style="margin-bottom: 0;">
+            <div class="panel-header">
+              <div class="panel-header-title">
+                <h3>Top Comparison Matchups</h3>
+                <p>High-converting rivalries on CompareAdvice</p>
+              </div>
+              <button class="btn btn-secondary btn-sm" onclick="switchTab('matrix')">View All</button>
+            </div>
+            <div class="table-wrap">
+              <table class="saas-table">
+                <thead>
+                  <tr>
+                    <th>Matchup</th>
+                    <th>Winner</th>
+                    <th>Clicks</th>
+                    <th>CTR</th>
+                    <th style="text-align: right;">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <strong>Hostinger</strong>
+                        <span style="font-size: 11px; color: var(--ca-slate-400);">vs</span>
+                        <strong>Bluehost</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge-pill active">
+                        <span class="badge-dot"></span>
+                        Hostinger (9.8)
+                      </span>
+                    </td>
+                    <td>42,190</td>
+                    <td><span class="badge-pill featured">14.8%</span></td>
+                    <td style="text-align: right;">
+                      <a href="../output/matrix_comparisons/hostinger-vs-bluehost.html" target="_blank" class="btn btn-secondary btn-sm">Preview</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <strong>SiteGround</strong>
+                        <span style="font-size: 11px; color: var(--ca-slate-400);">vs</span>
+                        <strong>A2 Hosting</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge-pill active">
+                        <span class="badge-dot"></span>
+                        SiteGround (9.7)
+                      </span>
+                    </td>
+                    <td>28,450</td>
+                    <td><span class="badge-pill featured">12.2%</span></td>
+                    <td style="text-align: right;">
+                      <a href="../output/matrix_comparisons/siteground-vs-a2-hosting.html" target="_blank" class="btn btn-secondary btn-sm">Preview</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <strong>IONOS</strong>
+                        <span style="font-size: 11px; color: var(--ca-slate-400);">vs</span>
+                        <strong>Hostinger</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge-pill active">
+                        <span class="badge-dot"></span>
+                        Hostinger (9.8)
+                      </span>
+                    </td>
+                    <td>21,800</td>
+                    <td><span class="badge-pill featured">11.5%</span></td>
+                    <td style="text-align: right;">
+                      <a href="../output/matrix_comparisons/ionos-vs-hostinger.html" target="_blank" class="btn btn-secondary btn-sm">Preview</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="display: flex; align-items: center; gap: 6px;">
+                        <strong>DreamHost</strong>
+                        <span style="font-size: 11px; color: var(--ca-slate-400);">vs</span>
+                        <strong>Bluehost</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <span class="badge-pill active">
+                        <span class="badge-dot"></span>
+                        DreamHost (9.4)
+                      </span>
+                    </td>
+                    <td>16,920</td>
+                    <td><span class="badge-pill featured">9.8%</span></td>
+                    <td style="text-align: right;">
+                      <a href="../output/matrix_comparisons/dreamhost-vs-bluehost.html" target="_blank" class="btn btn-secondary btn-sm">Preview</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Moderation Queue -->
+          <div class="content-panel" style="margin-bottom: 0;">
+            <div class="panel-header">
+              <div class="panel-header-title">
+                <h3>Partner Submissions</h3>
+                <p>Pending edits from Partner Central</p>
+              </div>
+              <span class="badge-pill pending" id="dashModBadge">
+                <span class="badge-dot"></span>
+                3 Pending
+              </span>
+            </div>
+            <div>
+              <div class="mod-row-card" id="dash-mod-1">
+                <div>
+                  <div class="mod-info-group">
+                    <h4>Hostinger</h4>
+                    <div class="mod-sub-meta">Updated 10m ago</div>
+                  </div>
+                  <div class="mod-diff-tags">
+                    <span class="diff-del">$2.99/mo</span>
+                    <span class="diff-arrow">&rarr;</span>
+                    <span class="diff-ins">$1.99/mo</span>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 4px;">
+                  <button class="btn btn-emerald btn-sm" onclick="approveModerationItem('dash-mod-1')">Approve</button>
+                  <button class="btn btn-secondary btn-sm" onclick="rejectModerationItem('dash-mod-1')">Decline</button>
+                </div>
+              </div>
+
+              <div class="mod-row-card" id="dash-mod-2">
+                <div>
+                  <div class="mod-info-group">
+                    <h4>SiteGround</h4>
+                    <div class="mod-sub-meta">Updated 1h ago</div>
+                  </div>
+                  <div class="mod-diff-tags">
+                    <span style="font-size: 11px; color: var(--ca-slate-600);">New Datacenter: Frankfurt, DE</span>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 4px;">
+                  <button class="btn btn-emerald btn-sm" onclick="approveModerationItem('dash-mod-2')">Approve</button>
+                  <button class="btn btn-secondary btn-sm" onclick="rejectModerationItem('dash-mod-2')">Decline</button>
+                </div>
+              </div>
+
+              <div style="padding: 10px 16px; background: var(--ca-slate-50); border-top: 1px solid var(--ca-slate-100); display: flex; align-items: center; justify-content: space-between;">
+                <span style="font-size: 11.5px; color: var(--ca-slate-500);">Review pending queue</span>
+                <button class="btn btn-secondary btn-sm" onclick="switchTab('moderation')">Open Moderation</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 2: PROVIDERS CATALOG
+           =================================================================== -->
+      <section class="tab-pane" id="tab-providers">
+        <div class="content-panel">
+          <div class="table-filter-bar">
+            <div class="filter-left-actions">
+              <input type="text" id="providerSearchInput" class="clean-input" style="min-width: 250px;" placeholder="Search provider name, slug, datacenter...">
+
+              <select id="filterStatus" class="clean-select" onchange="renderProvidersTable()">
+                <option value="all">Status: All</option>
+                <option value="active">Active Only</option>
+                <option value="featured">Featured Only</option>
+                <option value="unlisted">Unlisted / Draft</option>
+              </select>
+
+              <select id="filterRating" class="clean-select" onchange="renderProvidersTable()">
+                <option value="all">Rating: All</option>
+                <option value="4.5">Rating: 4.5+</option>
+                <option value="4.0">Rating: 4.0+</option>
+              </select>
+
+              <select id="sortBy" class="clean-select" onchange="renderProvidersTable()">
+                <option value="rating_desc">Sort: Highest Rating</option>
+                <option value="name_asc">Sort: Name (A-Z)</option>
+                <option value="price_asc">Sort: Price (Low-High)</option>
+                <option value="reviews_desc">Sort: Most Reviews</option>
+              </select>
+            </div>
+
+            <div>
+              <button class="btn btn-primary btn-sm" onclick="openAddProviderModal()">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                </svg>
+                <span>Add Provider</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table class="saas-table">
+              <thead>
+                <tr>
+                  <th>Provider</th>
+                  <th>Rating</th>
+                  <th>Price</th>
+                  <th>Datacenters</th>
+                  <th>Status</th>
+                  <th>Featured</th>
+                  <th style="text-align: right;">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="providersTableBody">
+                <!-- Dynamically rendered via admin.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 3: COMPARISON MATRIX WORKBENCH
+           =================================================================== -->
+      <section class="tab-pane" id="tab-matrix">
+        <div class="workbench-card">
+          <div class="workbench-header">
+            <h3>Pairwise Comparison Workbench</h3>
+            <p>Select any two hosting providers to simulate matchup scores, check specs, and preview static pages</p>
+          </div>
+
+          <div class="workbench-comparison-grid">
+            <div class="provider-select-box">
+              <label>Provider A</label>
+              <select id="simProviderA" class="workbench-select" onchange="updateMatchupSimulation()"></select>
+            </div>
+
+            <div class="vs-circle-pill">VS</div>
+
+            <div class="provider-select-box">
+              <label>Provider B</label>
+              <select id="simProviderB" class="workbench-select" onchange="updateMatchupSimulation()"></select>
+            </div>
+          </div>
+
+          <div class="workbench-winner-banner">
+            <div class="winner-banner-left">
+              <div class="winner-banner-title">
+                <h4 id="simWinnerName">Hostinger (Algorithmic Leader)</h4>
+                <p id="simWinnerReason">Higher verified satisfaction rating (4.8/5.0) and lower introductory starting rate.</p>
+              </div>
+            </div>
+
+            <button class="btn btn-secondary btn-sm" onclick="previewCurrentMatchup()">
+              <span>Open Matchup HTML</span>
+              <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Algorithm Weights Panel -->
+        <div class="content-panel">
+          <div class="panel-header">
+            <div class="panel-header-title">
+              <h3>Matchup Algorithm Weights</h3>
+              <p>Configure scoring weights across server performance, pricing, and user reputation</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="saveAlgorithmWeights()">Save Weights</button>
+          </div>
+          <div class="panel-body">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+              <div>
+                <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">
+                  Speed &amp; Tech: <span id="weightSpeedVal" style="color: var(--ca-blue); font-weight: 800;">30%</span>
+                </label>
+                <input type="range" min="10" max="50" value="30" style="width: 100%;" oninput="document.getElementById('weightSpeedVal').textContent = this.value + '%'">
+              </div>
+
+              <div>
+                <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">
+                  Pricing &amp; Value: <span id="weightPriceVal" style="color: var(--ca-blue); font-weight: 800;">25%</span>
+                </label>
+                <input type="range" min="10" max="50" value="25" style="width: 100%;" oninput="document.getElementById('weightPriceVal').textContent = this.value + '%'">
+              </div>
+
+              <div>
+                <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">
+                  User Reviews: <span id="weightReviewVal" style="color: var(--ca-blue); font-weight: 800;">25%</span>
+                </label>
+                <input type="range" min="10" max="50" value="25" style="width: 100%;" oninput="document.getElementById('weightReviewVal').textContent = this.value + '%'">
+              </div>
+
+              <div>
+                <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">
+                  Support SLA: <span id="weightSupportVal" style="color: var(--ca-blue); font-weight: 800;">20%</span>
+                </label>
+                <input type="range" min="5" max="30" value="20" style="width: 100%;" oninput="document.getElementById('weightSupportVal').textContent = this.value + '%'">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 4: PARTNER MODERATION
+           =================================================================== -->
+      <section class="tab-pane" id="tab-moderation">
+        <div class="content-panel">
+          <div class="panel-header">
+            <div class="panel-header-title">
+              <h3>Partner Change Moderation Queue</h3>
+              <p>Review and approve pricing changes, coupon codes, and specs submitted from Partner Central</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="approveAllModeration()">Approve All Pending</button>
+          </div>
+
+          <div id="moderationItemsList">
+            <div class="mod-row-card" id="mod-item-1">
+              <div>
+                <div class="mod-info-group">
+                  <h4>Hostinger</h4>
+                  <div class="mod-sub-meta">Oct 29, 2026 &bull; Submitted by Partner Manager</div>
+                </div>
+                <div class="mod-diff-tags">
+                  <span style="font-weight: 700; color: var(--ca-slate-600);">Starting Price:</span>
+                  <span class="diff-del">$2.99 / mo</span>
+                  <span class="diff-arrow">&rarr;</span>
+                  <span class="diff-ins">$1.99 / mo</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 6px;">
+                <button class="btn btn-emerald btn-sm" onclick="approveModerationItem('mod-item-1')">Approve</button>
+                <button class="btn btn-secondary btn-sm" onclick="rejectModerationItem('mod-item-1')">Decline</button>
+              </div>
+            </div>
+
+            <div class="mod-row-card" id="mod-item-2">
+              <div>
+                <div class="mod-info-group">
+                  <h4>SiteGround</h4>
+                  <div class="mod-sub-meta">Oct 29, 2026 &bull; Submitted by Partner Manager</div>
+                </div>
+                <div class="mod-diff-tags">
+                  <span style="font-weight: 700; color: var(--ca-slate-600);">Datacenters:</span>
+                  <span class="diff-del">USA, UK, Singapore</span>
+                  <span class="diff-arrow">&rarr;</span>
+                  <span class="diff-ins">USA, UK, Singapore, Frankfurt, Madrid</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 6px;">
+                <button class="btn btn-emerald btn-sm" onclick="approveModerationItem('mod-item-2')">Approve</button>
+                <button class="btn btn-secondary btn-sm" onclick="rejectModerationItem('mod-item-2')">Decline</button>
+              </div>
+            </div>
+
+            <div class="mod-row-card" id="mod-item-3">
+              <div>
+                <div class="mod-info-group">
+                  <h4>A2 Hosting</h4>
+                  <div class="mod-sub-meta">Oct 29, 2026 &bull; Submitted by Partner Manager</div>
+                </div>
+                <div class="mod-diff-tags">
+                  <span style="font-weight: 700; color: var(--ca-slate-600);">Affiliate SubID:</span>
+                  <span class="diff-del">ref=generic</span>
+                  <span class="diff-arrow">&rarr;</span>
+                  <span class="diff-ins">ref=compareadvice_exclusive_q4</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 6px;">
+                <button class="btn btn-emerald btn-sm" onclick="approveModerationItem('mod-item-3')">Approve</button>
+                <button class="btn btn-secondary btn-sm" onclick="rejectModerationItem('mod-item-3')">Decline</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 5: AFFILIATE & UTM HUB
+           =================================================================== -->
+      <section class="tab-pane" id="tab-monetization">
+        <div class="content-panel">
+          <div class="panel-header">
+            <div class="panel-header-title">
+              <h3>Global UTM Tracking Configuration</h3>
+              <p>Inject global campaign parameters and subIDs across all 55 provider links</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="applyBulkUTMs()">Apply UTM to All 55 Providers</button>
+          </div>
+          <div class="panel-body">
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label>UTM Source</label>
+                <input type="text" id="utmSource" value="compareadvice">
+              </div>
+              <div class="form-field">
+                <label>UTM Medium</label>
+                <input type="text" id="utmMedium" value="matrix_comparison">
+              </div>
+              <div class="form-field">
+                <label>UTM Campaign</label>
+                <input type="text" id="utmCampaign" value="2026_rankings">
+              </div>
+              <div class="form-field">
+                <label>Dynamic SubID Template</label>
+                <input type="text" id="utmSubID" value="{provider}_vs_{competitor}_topcta">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-panel">
+          <div class="panel-header">
+            <div class="panel-header-title">
+              <h3>Provider Destination URLs</h3>
+              <p>Active referral endpoints and earnings per click</p>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table class="saas-table">
+              <thead>
+                <tr>
+                  <th>Provider</th>
+                  <th>Destination Referral URL</th>
+                  <th>UTM Status</th>
+                  <th>Est. EPC</th>
+                  <th style="text-align: right;">Action</th>
+                </tr>
+              </thead>
+              <tbody id="affiliateLinksTableBody">
+                <!-- Dynamically rendered -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 6: REBUILD ENGINE
+           =================================================================== -->
+      <section class="tab-pane" id="tab-generator">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 16px;">
+          <div class="content-panel" style="margin-bottom: 0;">
+            <div class="panel-body">
+              <h4 style="font-size: 13.5px; font-weight: 800; margin-bottom: 3px;">Matrix Rebuild</h4>
+              <p style="font-size: 11.5px; color: var(--ca-slate-500); margin-bottom: 12px;">
+                Re-generate 2,970 pairwise comparison pages with podium medals.
+              </p>
+              <button class="btn btn-primary" style="width: 100%;" onclick="startGenerationProcess('matrix')">
+                <span>Run Matrix Generator</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="content-panel" style="margin-bottom: 0;">
+            <div class="panel-body">
+              <h4 style="font-size: 13.5px; font-weight: 800; margin-bottom: 3px;">Portfolio Rebuild</h4>
+              <p style="font-size: 11.5px; color: var(--ca-slate-500); margin-bottom: 12px;">
+                Re-generate 55 individual company portfolio pages.
+              </p>
+              <button class="btn btn-secondary" style="width: 100%;" onclick="startGenerationProcess('portfolio')">
+                <span>Run Portfolio Generator</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="content-panel" style="margin-bottom: 0;">
+            <div class="panel-body">
+              <h4 style="font-size: 13.5px; font-weight: 800; margin-bottom: 3px;">Export Database</h4>
+              <p style="font-size: 11.5px; color: var(--ca-slate-500); margin-bottom: 12px;">
+                Download latest JavaScript database file with all modifications.
+              </p>
+              <button class="btn btn-secondary" style="width: 100%;" onclick="exportDataJSON()">
+                <span>Download companies_data.js</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="terminal-shell">
+          <div class="terminal-topbar">
+            <div class="terminal-dots">
+              <span class="t-dot r"></span>
+              <span class="t-dot y"></span>
+              <span class="t-dot g"></span>
+            </div>
+            <span class="terminal-title">CompareAdvice Engine &bull; status: <span id="consoleStatusText" style="color: #34d399;">IDLE</span></span>
+            <button class="btn btn-secondary btn-sm" style="padding: 2px 6px; font-size: 10.5px; background: #1f2937; color: #9ca3af; border: none;" onclick="clearConsole()">Clear Logs</button>
+          </div>
+          <div class="terminal-body" id="consoleBody">
+            <div class="log-entry">
+              <span class="log-ts">[14:40:00]</span>
+              <span class="log-i">CompareAdvice Engine Initialized.</span>
+            </div>
+            <div class="log-entry">
+              <span class="log-ts">[14:40:01]</span>
+              <span class="log-ok">Loaded 55 provider profiles from companies_data.js.</span>
+            </div>
+            <div class="log-entry">
+              <span class="log-ts">[14:40:02]</span>
+              <span class="log-ok">2,970 pairwise static comparison files verified in output/matrix_comparisons/.</span>
+            </div>
+          </div>
+          <div class="terminal-progress-panel">
+            <span style="font-size: 11px; color: #94a3b8; font-family: var(--ca-mono);">Progress:</span>
+            <div class="progress-track">
+              <div class="progress-thumb" id="buildProgressBar"></div>
+            </div>
+            <span class="progress-digits" id="buildProgressText">0%</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           TAB 7: SITE SETTINGS
+           =================================================================== -->
+      <section class="tab-pane" id="tab-settings">
+        <div class="content-panel">
+          <div class="panel-header">
+            <div class="panel-header-title">
+              <h3>CompareAdvice Platform Settings</h3>
+              <p>Configure the rounded pill navbar, meta title templates, and brand identity</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="savePlatformSettings()">Save Settings</button>
+          </div>
+          <div class="panel-body">
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label>Platform Name</label>
+                <input type="text" id="settingSiteName" value="CompareAdvice">
+              </div>
+              <div class="form-field">
+                <label>Tagline</label>
+                <input type="text" id="settingTagline" value="Official Web Hosting Comparison Engine 2026">
+              </div>
+              <div class="form-field">
+                <label>Rounded Pill Static Header Mode</label>
+                <select id="settingNavMode">
+                  <option value="sticky" selected>Rounded Sticky Pill (Modern Glassmorphic)</option>
+                  <option value="fixed">Fixed Full Width Header</option>
+                  <option value="minimal">Minimal Compact Navbar</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label>Contact Email</label>
+                <input type="email" id="settingEmail" value="admin@compareadvice.com">
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label>SEO Dynamic Title Template</label>
+              <input type="text" id="settingMetaTitle" value="{company_a} vs {company_b} (2026) - Benchmark Comparison | CompareAdvice">
+            </div>
+
+            <div class="form-field">
+              <label>SEO Dynamic Description Template</label>
+              <textarea id="settingMetaDesc">Compare {company_a} vs {company_b} head-to-head on CompareAdvice. Compare starting rates from {price_a} vs {price_b}, NVMe server speed tests, customer support SLAs, and verified Trustpilot ratings.</textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- =========================================================================
+       MODALS
+       ========================================================================= -->
+  <div class="modal-backdrop" id="addProviderModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Add New Hosting Provider</h3>
+        <button class="modal-close-btn" onclick="closeModal('addProviderModal')">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="addProviderForm" onsubmit="handleCreateProvider(event)">
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label>Company Name *</label>
+              <input type="text" id="newCompanyName" placeholder="e.g. HostArmada" required>
+            </div>
+            <div class="form-field">
+              <label>Slug (URL Identifier) *</label>
+              <input type="text" id="newCompanySlug" placeholder="e.g. hostarmada" required>
+            </div>
+            <div class="form-field">
+              <label>Starting Price *</label>
+              <input type="text" id="newCompanyPrice" placeholder="e.g. $ 2.49 / month" required>
+            </div>
+            <div class="form-field">
+              <label>Rating (out of 5.0) *</label>
+              <input type="text" id="newCompanyRating" placeholder="e.g. 4.7" required>
+            </div>
+            <div class="form-field">
+              <label>Founded Year</label>
+              <input type="number" id="newCompanyFounded" placeholder="2019">
+            </div>
+            <div class="form-field">
+              <label>Headquarters</label>
+              <input type="text" id="newCompanyHQ" placeholder="Newark, Delaware, USA">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label>Tagline / Headline</label>
+            <input type="text" id="newCompanyTagline" placeholder="Cloud SSD Shared &amp; WordPress Hosting">
+          </div>
+
+          <div class="form-field">
+            <label>Affiliate / Referral Destination URL *</label>
+            <input type="url" id="newCompanyAffiliate" placeholder="https://tracking.provider.com/?aff=compareadvice" required>
+          </div>
+
+          <div class="form-field">
+            <label>Datacenter Regions</label>
+            <input type="text" id="newCompanyDatacenters" placeholder="USA (Dallas), UK (London), Germany, Singapore">
+          </div>
+
+          <div class="form-field">
+            <label>Company Overview</label>
+            <textarea id="newCompanyAbout" placeholder="Enter company background and key technical highlights..."></textarea>
+          </div>
+
+          <div class="modal-footer" style="padding: 12px 0 0 0; background: none; border: none;">
+            <button type="button" class="btn btn-secondary" onclick="closeModal('addProviderModal')">Cancel</button>
+            <button type="submit" class="btn btn-primary">Create Provider</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="editProviderModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Edit Provider Master Record</h3>
+        <button class="modal-close-btn" onclick="closeModal('editProviderModal')">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="editProviderForm" onsubmit="handleUpdateProvider(event)">
+          <input type="hidden" id="editSlug">
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label>Company Name</label>
+              <input type="text" id="editCompanyName" required>
+            </div>
+            <div class="form-field">
+              <label>Starting Price</label>
+              <input type="text" id="editPrice" required>
+            </div>
+            <div class="form-field">
+              <label>Platform Rating (0.0 - 5.0)</label>
+              <input type="text" id="editRating" required>
+            </div>
+            <div class="form-field">
+              <label>Total Reviews</label>
+              <input type="text" id="editReviewsCount">
+            </div>
+            <div class="form-field">
+              <label>Headquarters</label>
+              <input type="text" id="editHQ">
+            </div>
+            <div class="form-field">
+              <label>Website URL</label>
+              <input type="text" id="editWebsite">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label>Tagline</label>
+            <input type="text" id="editTagline">
+          </div>
+
+          <div class="form-field">
+            <label>Affiliate URL</label>
+            <input type="text" id="editAffiliateUrl" required>
+          </div>
+
+          <div class="form-field">
+            <label>Datacenters</label>
+            <input type="text" id="editDatacenters">
+          </div>
+
+          <div class="form-field">
+            <label>Company Overview</label>
+            <textarea id="editAbout"></textarea>
+          </div>
+
+          <div class="modal-footer" style="padding: 12px 0 0 0; background: none; border: none;">
+            <button type="button" class="btn btn-secondary" onclick="closeModal('editProviderModal')">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="companies_data.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
