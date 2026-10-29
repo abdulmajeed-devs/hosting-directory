@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HostAdvice Partner Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Sidebar Navigation
+       ========================================================================= -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-text">
+        <h2>HostAdvice</h2>
+        <span>Partner Central</span>
+      </div>
+    </div>
+
+    <nav class="sidebar-menu">
+      <a class="nav-link active" data-tab="overview">Dashboard</a>
+      <a class="nav-link" data-tab="profile">Company Profile</a>
+      <a class="nav-link" data-tab="pricing">Pricing & Plans</a>
+      <a class="nav-link" data-tab="services">Features & Services</a>
+      <a class="nav-link" data-tab="infrastructure">Data Centers</a>
+      <a class="nav-link" data-tab="reputation">Reviews & Trust</a>
+      <a class="nav-link" data-tab="support">Support Channels</a>
+      <a class="nav-link" data-tab="settings">Listing Settings</a>
+    </nav>
+  </aside>
+
+  <!-- =========================================================================
+       Main Content Area
+       ========================================================================= -->
+  <main class="main-wrapper">
+    <!-- Header -->
+    <header class="top-header">
+      <div class="header-left">
+        <div class="company-select-wrap">
+          <label for="companySelector">Provider:</label>
+          <select id="companySelector"></select>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button type="button" class="btn btn-secondary" onclick="openLivePreview()">
+          View Live Listing
+        </button>
+        <button type="button" class="btn btn-primary" onclick="saveAllChanges()">
+          Save Changes
+        </button>
+
+        <div class="user-badge">
+          <div class="user-avatar" id="userAvatarLetter">H</div>
+          <div class="user-info">
+            <span class="user-name" id="companyNameHeader">Hostinger</span>
+            <span class="user-role">Account Manager</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content Body -->
+    <div class="content-body">
+
+      <!-- =====================================================================
+           TAB 1: Dashboard
+           ===================================================================== -->
+      <section id="tab-overview" class="tab-pane active">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Performance Dashboard</h1>
+            <p>Monthly traffic, referral conversions, and head-to-head comparison metrics.</p>
+          </div>
+        </div>
+
+        <!-- Metric Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-title">Profile Impressions</div>
+            <div class="stat-value" id="statViews">42,500</div>
+            <div class="stat-trend trend-up">+14.2% from last month</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Outbound Clicks</div>
+            <div class="stat-value" id="statClicks">3,315</div>
+            <div class="stat-trend trend-up">+9.8% referral traffic</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Click-Through Rate</div>
+            <div class="stat-value" id="statCtr">7.8%</div>
+            <div class="stat-trend trend-neutral">Benchmark: 5.2%</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Average Rating</div>
+            <div class="stat-value" id="statRating">4.6 / 5.0</div>
+            <div class="stat-trend trend-up">Based on verified reviews</div>
+          </div>
+        </div>
+
+        <!-- Recent Comparisons Activity Table -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Top Comparison Matchups This Month</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Comparison</th>
+                  <th>Monthly Views</th>
+                  <th>Win Rate</th>
+                  <th>Primary Driver</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>vs. Bluehost</strong></td>
+                  <td>14,280</td>
+                  <td><span class="win-tag">68% Favored</span></td>
+                  <td>Pricing & LiteSpeed Performance</td>
+                  <td><span class="pill-active">Trending</span></td>
+                </tr>
+                <tr>
+                  <td><strong>vs. SiteGround</strong></td>
+                  <td>9,410</td>
+                  <td><span class="win-tag">61% Favored</span></td>
+                  <td>Entry Price Value</td>
+                  <td><span class="pill-active">High Volume</span></td>
+                </tr>
+                <tr>
+                  <td><strong>vs. IONOS</strong></td>
+                  <td>7,190</td>
+                  <td><span class="win-tag">58% Favored</span></td>
+                  <td>hPanel Usability & Free Domain</td>
+                  <td><span class="pill-active">Stable</span></td>
+                </tr>
+                <tr>
+                  <td><strong>vs. A2 Hosting</strong></td>
+                  <td>5,820</td>
+                  <td><span class="win-tag">54% Favored</span></td>
+                  <td>Beginner Onboarding</td>
+                  <td><span class="pill-active">Stable</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 2: Company Profile
+           ===================================================================== -->
+      <section id="tab-profile" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Company Profile</h1>
+            <p>Update your brand information, public description, and company leadership details.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>General Information</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-2" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="profileName">Company Name</label>
+                <input type="text" id="profileName" class="form-control" placeholder="Hostinger" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="profileSlug">URL Slug</label>
+                <input type="text" id="profileSlug" class="form-control" readonly style="background-color: #f8fafc; color: #64748b;" />
+              </div>
+            </div>
+
+            <div class="form-group full-width" style="margin-bottom: 20px;">
+              <label class="input-label">Brand Logo</label>
+              <div class="logo-upload-box">
+                <div class="logo-preview-frame">
+                  <img id="logoPreviewImg" src="" alt="" onerror="handleLogoError(this)" />
+                </div>
+                <div class="logo-upload-details">
+                  <h4>Display Logo</h4>
+                  <p>Upload a high-resolution logo (PNG, SVG, or WebP). Recommended size: 200×200px or larger.</p>
+                  <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                    <label class="btn btn-secondary" style="cursor: pointer;">
+                      Choose File
+                      <input type="file" id="logoFileInput" accept="image/*" style="display: none;" onchange="handleLogoFileUpload(event)" />
+                    </label>
+                    <button type="button" class="btn btn-secondary" style="font-size: 12px; padding: 7px 12px;" onclick="handleLogoError(document.getElementById('logoPreviewImg'))">
+                      Reset to Default
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group full-width" style="margin-bottom: 20px;">
+              <label class="input-label" for="profileTagline">Headline Tagline</label>
+              <input type="text" id="profileTagline" class="form-control" placeholder="e.g. Fast & Reliable Web Hosting Solutions" />
+            </div>
+
+            <div class="form-grid-3" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="profileFounded">Founded Year</label>
+                <input type="number" id="profileFounded" class="form-control" placeholder="2004" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="profileHq">Headquarters</label>
+                <input type="text" id="profileHq" class="form-control" placeholder="Kaunas, Lithuania" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="profileCeo">Leadership / CEO</label>
+                <input type="text" id="profileCeo" class="form-control" placeholder="Executive Leadership" />
+              </div>
+            </div>
+
+            <div class="form-group full-width" style="margin-bottom: 20px;">
+              <label class="input-label" for="profileWebsite">Website URL</label>
+              <input type="url" id="profileWebsite" class="form-control" placeholder="https://www.hostinger.com" />
+            </div>
+
+            <div class="form-group full-width">
+              <label class="input-label" for="profileAbout">Company Overview</label>
+              <textarea id="profileAbout" class="form-control" rows="4" placeholder="Overview of the company, mission, and infrastructure..."></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 3: Pricing & Plans
+           ===================================================================== -->
+      <section id="tab-pricing" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Pricing & Plans</h1>
+            <p>Configure plan rates, discount offers, guarantee periods, and destination referral links.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Pricing Configuration</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-2" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="pricingStarting">Starting Price</label>
+                <input type="text" id="pricingStarting" class="form-control" placeholder="$ 1.99 / month" />
+              </div>
+
+              <div class="form-group">
+                <label class="input-label" for="pricingRenewal">Renewal Price</label>
+                <input type="text" id="pricingRenewal" class="form-control" placeholder="$ 5.99 / month" />
+              </div>
+            </div>
+
+            <div class="form-grid-3" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="pricingDiscountBadge">Promotional Badge</label>
+                <input type="text" id="pricingDiscountBadge" class="form-control" placeholder="Up to 75% OFF + 3 Months Free" />
+              </div>
+
+              <div class="form-group">
+                <label class="input-label" for="pricingCoupon">Promo Code</label>
+                <input type="text" id="pricingCoupon" class="form-control" placeholder="HOSTCOMPARE2026" />
+              </div>
+
+              <div class="form-group">
+                <label class="input-label" for="pricingMoneyBack">Guarantee Period (Days)</label>
+                <input type="number" id="pricingMoneyBack" class="form-control" placeholder="30" />
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="input-label" for="pricingAffiliate">Destination / Referral URL</label>
+              <input type="url" id="pricingAffiliate" class="form-control" placeholder="https://www.company.com/?ref=hostadvice" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 4: Features & Services
+           ===================================================================== -->
+      <section id="tab-services" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Features & Services</h1>
+            <p>Select the hosting categories and technical specifications supported on your platform.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Hosting Types</h3>
+          </div>
+          <div class="card-body">
+            <div class="features-matrix-grid">
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Shared Hosting</h4>
+                  <p>Standard entry-level web hosting</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceShared">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Managed WordPress</h4>
+                  <p>Optimized for WordPress performance</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceWordpress">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>VPS Hosting</h4>
+                  <p>Dedicated virtual server environments</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceVps">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Cloud Hosting</h4>
+                  <p>Scalable cloud infrastructure</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceCloud">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Dedicated Servers</h4>
+                  <p>Physical bare-metal server access</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceDedicated">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Reseller Hosting</h4>
+                  <p>Multi-account client hosting capabilities</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="serviceReseller">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Included Plan Features</h3>
+          </div>
+          <div class="card-body">
+            <div class="features-matrix-grid">
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Free SSL Certificate</h4>
+                  <p>Standard SSL security included</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featSsl">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Free Domain Name</h4>
+                  <p>Domain registration for first year</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featDomain">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>NVMe SSD Storage</h4>
+                  <p>High-speed solid-state drives</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featNvme">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Automated Backups</h4>
+                  <p>Daily or weekly site snapshots</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featBackups">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Control Panel</h4>
+                  <p>cPanel or custom admin panel</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featCpanel">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>24/7 Live Support</h4>
+                  <p>Round-the-clock technician assistance</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featChat">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>DDoS Protection</h4>
+                  <p>Network-level attack mitigation</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featDdos">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Free Website Migration</h4>
+                  <p>Assisted website transfer service</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featMigration">
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="toggle-card">
+                <div class="toggle-titles">
+                  <h4>Staging Environment</h4>
+                  <p>One-click testing sandbox</p>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="featStaging">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 5: Data Centers
+           ===================================================================== -->
+      <section id="tab-infrastructure" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Data Centers & Infrastructure</h1>
+            <p>Provide information about server locations, network uptime SLAs, and architecture.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Server Locations & Coverage</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-group full-width" style="margin-bottom: 20px;">
+              <label class="input-label" for="techDatacenters">
+                Data Center Locations
+                <span class="sub">Specify active facilities and regions</span>
+              </label>
+              <textarea id="techDatacenters" class="form-control" rows="3" placeholder="USA (Virginia, California), Europe (Frankfurt, London), Asia (Singapore)"></textarea>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="input-label" for="techUptime">Network Uptime SLA</label>
+                <input type="text" id="techUptime" class="form-control" placeholder="99.9%" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="techWebServer">Web Server Architecture</label>
+                <input type="text" id="techWebServer" class="form-control" placeholder="LiteSpeed / Nginx" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 6: Reviews & Trust
+           ===================================================================== -->
+      <section id="tab-reputation" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Reviews & Trust Metrics</h1>
+            <p>Connect third-party ratings, review aggregators, and key strengths.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Rating Details</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-2" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="repTrustpilotScore">Trustpilot Rating (out of 5)</label>
+                <input type="text" id="repTrustpilotScore" class="form-control" placeholder="4.7" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="repTrustpilotUrl">Trustpilot Profile Link</label>
+                <input type="url" id="repTrustpilotUrl" class="form-control" placeholder="https://www.trustpilot.com/review/company.com" />
+              </div>
+            </div>
+
+            <div class="form-grid-2" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="repUserRating">Platform Score</label>
+                <input type="text" id="repUserRating" class="form-control" placeholder="4.6" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="repReviewsCount">Total Verified Reviews</label>
+                <input type="text" id="repReviewsCount" class="form-control" placeholder="3,410 reviews" />
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="input-label" for="repPros">
+                  Primary Strengths
+                  <span class="sub">One per line</span>
+                </label>
+                <textarea id="repPros" class="form-control" rows="5"></textarea>
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="repCons">
+                  Key Limitations
+                  <span class="sub">One per line</span>
+                </label>
+                <textarea id="repCons" class="form-control" rows="5"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =====================================================================
+           TAB 8: Support Channels
+           ===================================================================== -->
+      <section id="tab-support" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Support Channels & Social Links</h1>
+            <p>Official communication channels, contact numbers, and social media presence.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Support Contacts</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-3" style="margin-bottom: 20px;">
+              <div class="form-group">
+                <label class="input-label" for="supEmail">Support Email</label>
+                <input type="email" id="supEmail" class="form-control" placeholder="support@company.com" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="supPhone">Phone Number</label>
+                <input type="text" id="supPhone" class="form-control" placeholder="+1 (800) 555-0199" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="supChatUrl">Live Chat / Helpdesk URL</label>
+                <input type="url" id="supChatUrl" class="form-control" placeholder="https://www.company.com/support" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Social Profiles</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="input-label" for="socTwitter">Twitter / X</label>
+                <input type="url" id="socTwitter" class="form-control" placeholder="https://twitter.com/company" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="socFacebook">Facebook</label>
+                <input type="url" id="socFacebook" class="form-control" placeholder="https://facebook.com/company" />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="socLinkedin">LinkedIn</label>
+                <input type="url" id="socLinkedin" class="form-control" placeholder="https://linkedin.com/company/..." />
+              </div>
+              <div class="form-group">
+                <label class="input-label" for="socYoutube">YouTube</label>
+                <input type="url" id="socYoutube" class="form-control" placeholder="https://youtube.com/@..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           TAB 9: Listing Settings
+           ===================================================================== -->
+      <section id="tab-settings" class="tab-pane">
+        <div class="page-header-box">
+          <div class="page-title">
+            <h1>Listing Settings</h1>
+            <p>Manage visibility, notification preferences, and platform sync settings.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Visibility & Preferences</h3>
+          </div>
+          <div class="card-body">
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="input-label">Listing Visibility</label>
+                <select class="form-control">
+                  <option selected>Published & Visible</option>
+                  <option>Unlisted / Hidden</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="input-label">Lead Notification Email</label>
+                <input type="email" class="form-control" value="partners@hostinger.com" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- =========================================================================
+       Floating Save Bar
+       ========================================================================= -->
+  <div id="floatingSaveBar" class="floating-save-bar">
+    <div class="unsaved-text">
+      <div class="unsaved-dot"></div>
+      <span>Unsaved changes</span>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <button type="button" class="btn btn-secondary" style="padding: 6px 14px; font-size: 12.5px;" onclick="discardChanges()">
+        Discard
+      </button>
+      <button type="button" class="btn btn-primary" style="padding: 6px 16px; font-size: 12.5px;" onclick="saveAllChanges()">
+        Save Changes
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="toast">
+    <span id="toastMessage">Changes saved successfully</span>
+  </div>
+
+  <!-- =========================================================================
+       Live Preview Modal
+       ========================================================================= -->
+  <div id="previewModal" class="modal-backdrop">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3>Public Listing Preview</h3>
+        <button type="button" class="modal-close" onclick="closeLivePreview()">✕</button>
+      </div>
+      <div class="modal-body" id="previewModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="companies_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
